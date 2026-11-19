@@ -90,7 +90,7 @@ p { margin: 0 0 1rem; }
 .section-header p { margin: 0; color: var(--muted); font-size: 14px; }
 .section-header::after { content: ""; display: block; width: 42px; height: 2px; margin: 22px auto 0; background: linear-gradient(90deg, transparent, #38bdf8, transparent); }
 #about_content { width: 100%; max-width: 880px; }
-.about-item { padding: 28px 32px; border: 1px solid #d9dde1; border-radius: 10px; background: #f7f7f7; }
+.about-item { padding: 28px 32px; border: 1px solid #bae6fd; border-radius: 10px; background: #f0f9ff; }
 .about-item p { margin: 0; font-size: 17px; line-height: 1.9; text-align: left; overflow-wrap: anywhere; }
 .about-item b { color: var(--heading); font-weight: 650; }
 
@@ -130,6 +130,7 @@ p { margin: 0 0 1rem; }
 .talks-heading span { color: var(--muted); font-size: 11px; font-weight: 400; }
 .schedule-item { display: grid; grid-template-columns: 76px 76px minmax(0, 1fr); align-items: start; gap: 23px; margin-bottom: 14px; padding: 29px 30px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); transition: border-color .2s, box-shadow .2s; }
 .schedule-item:hover { border-color: rgba(14, 165, 233, .22); box-shadow: 0 8px 26px #0f172a04; }
+#schedule article.schedule-item > .speaker { align-self: center; }
 .talk-time { display: flex; flex-direction: column; padding-top: 3px; color: var(--heading); font-size: 15px; font-weight: 650; font-variant-numeric: tabular-nums; }
 .talk-time .end-time { color: var(--muted); font-size: inherit; font-weight: 400; }
 .speaker { display: block; width: 76px; height: 76px; }
