@@ -127,7 +127,7 @@ p { margin: 0 0 1rem; }
 .schedule-item { display: grid; grid-template-columns: 76px 76px minmax(0, 1fr); align-items: start; gap: 23px; margin-bottom: 14px; padding: 29px 30px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); transition: border-color .2s, box-shadow .2s; }
 .schedule-item:hover { border-color: rgba(14, 165, 233, .22); box-shadow: 0 8px 26px #0f172a04; }
 .talk-time { display: flex; flex-direction: column; padding-top: 3px; color: var(--heading); font-size: 15px; font-weight: 650; font-variant-numeric: tabular-nums; }
-.talk-time .end-time { color: var(--muted); font-size: 12px; font-weight: 400; }
+.talk-time .end-time { color: var(--muted); font-size: inherit; font-weight: 400; }
 .speaker { display: block; width: 76px; height: 76px; }
 .speaker img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; border-radius: 50%; background: #f8fbff; }
 .talk-content { min-width: 0; }
