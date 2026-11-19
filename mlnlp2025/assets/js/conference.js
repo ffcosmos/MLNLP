@@ -44,7 +44,7 @@
   }
   function renderChair(chair) {
     return `<div class="chair-card">
-      <div class="chair-portrait">${portrait(chair.img, chair.name, 66)}</div>
+      <div class="chair-portrait">${portrait(chair.img, chair.name, 76)}</div>
       <div><h4 class="chair-name">${escapeHTML(chair.name)}</h4>
       <p class="chair-affiliation">${escapeHTML(chair.affiliation)}</p></div>
     </div>`;
