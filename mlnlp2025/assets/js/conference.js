@@ -91,8 +91,11 @@
     const talks = Array.isArray(data.session_list) ? data.session_list : [];
     return `<div class="schedule-chair-item">
       <div class="session-heading">
-        <div><span class="session-kicker">${escapeHTML(kicker)}</span><h3>${escapeHTML(title)}</h3></div>
-        ${dateText ? `<span class="session-date"><i class="bi bi-calendar3" aria-hidden="true"></i>${escapeHTML(dateText)}</span>` : ''}
+        <div class="session-meta">
+          <span class="session-kicker">${escapeHTML(kicker)}</span>
+          ${dateText ? `<span class="session-date"><i class="bi bi-calendar3" aria-hidden="true"></i>${escapeHTML(dateText)}</span>` : ''}
+        </div>
+        <h3>${escapeHTML(title)}</h3>
       </div>
       <div class="session-chairs" aria-label="论坛主席">
         <h4 class="chair-section-label">论坛主席</h4>

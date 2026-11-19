@@ -101,14 +101,15 @@ p { margin: 0 0 1rem; }
 #schedule .nav-tabs .nav-link:focus-visible { outline-offset: -3px; border-radius: 4px; }
 #schedule > .container > .tab-content { margin-inline: 0; }
 #schedule .tab-pane { width: 100%; padding: 0; }
-.schedule-chair-item { padding: 34px 38px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); }
-.session-heading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 12px; text-align: center; }
-.session-kicker { display: block; margin-bottom: 8px; color: var(--muted); font-size: 10px; font-weight: 650; letter-spacing: .1em; }
-.session-heading h3 { margin: 0; font-size: 25px; letter-spacing: -.025em; }
-.session-date { display: inline-flex; align-items: center; justify-content: center; gap: 8px; color: var(--muted); font-size: 12px; }
-.session-chairs { display: grid; grid-template-columns: minmax(0, 1fr); align-items: center; justify-items: center; gap: 18px; margin-block: 26px; padding-block: 24px; border-block: 1px solid var(--line); }
+.schedule-chair-item { padding: 28px 34px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); }
+.session-heading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; }
+.session-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 14px; }
+.session-kicker { color: var(--muted); font-size: .75rem; font-weight: 600; letter-spacing: .04em; }
+.session-heading h3 { margin: 0; font-size: 28px; letter-spacing: -.025em; }
+.session-date { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding-left: 14px; border-left: 1px solid var(--line); color: var(--muted); font-size: .875rem; }
+.session-chairs { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 24px; margin-block: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .chair-section-label { flex-shrink: 0; margin: 0; color: var(--muted); font-size: .875rem; font-weight: 500; }
-.chair-list { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 20px 32px; max-width: 100%; }
+.chair-list { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px 24px; max-width: 100%; }
 .chair-card { display: flex; flex: 0 1 auto; align-items: center; justify-content: center; gap: 12px; min-width: 0; max-width: 276px; }
 .chair-card > div:last-child { min-width: 0; max-width: 180px; }
 .chair-portrait { flex: 0 0 66px; width: 66px; height: 66px; padding: 3px; border: 1px solid rgba(14, 165, 233, .18); border-radius: 50%; background: #fff; box-shadow: 0 5px 15px rgba(14, 165, 233, .04); }
@@ -217,8 +218,8 @@ p { margin: 0 0 1rem; }
   #schedule .nav-tabs .nav-link { min-height: 54px; padding-inline: 2px; }
   .schedule-chair-item { padding: 25px 22px; }
   .session-heading h3 { font-size: 23px; }
-  .session-chairs { grid-template-columns: 1fr; gap: 14px; padding-block: 22px; }
-  .chair-list { gap: 18px 24px; }
+  .session-chairs { gap: 14px 20px; margin-block: 18px; padding-bottom: 18px; }
+  .chair-list { gap: 16px 20px; }
   .chair-card { gap: 10px; }
   .chair-portrait { flex-basis: 56px; width: 56px; height: 56px; }
   .chair-name { font-size: 15px; }
@@ -255,7 +256,10 @@ p { margin: 0 0 1rem; }
   .brand-year { font-size: 12px; }
   .buy-tickets { margin-left: 10px; padding-inline: 14px; }
   .mobile-nav-toggle { margin-left: 6px; }
-  .schedule-chair-item { padding: 24px 18px; }
+  .schedule-chair-item { padding: 22px 18px; }
+  .session-meta { flex-direction: column; gap: 4px; }
+  .session-date { padding-left: 0; border-left: 0; }
+  .chair-section-label { flex-basis: 100%; text-align: center; }
   .session-heading h3 { font-size: 21px; }
   .chair-list { flex-direction: column; align-items: stretch; width: min(100%, 280px); gap: 18px; }
   .chair-portrait { flex-basis: 60px; width: 60px; height: 60px; }
