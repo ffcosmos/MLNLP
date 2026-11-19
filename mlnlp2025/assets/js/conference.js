@@ -66,12 +66,18 @@
     const name = url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(speaker.name)}</a>` : escapeHTML(speaker.name);
     const resources = resourceLink(talk.slides, '演讲资料') + resourceLink(talk.recoding, '报告回放');
     return `<article class="schedule-item">
-      <div class="talk-time" aria-label="报告时间"><time>${escapeHTML(talk.time?.[0])}</time><time class="end-time">${escapeHTML(talk.time?.[1])}</time></div>
+      <div class="talk-header">
+        <h5 class="item-title">${escapeHTML(talk.title)}</h5>
+        <div class="talk-time" aria-label="报告时间"><time>${escapeHTML(talk.time?.[0])}</time><time class="end-time">${escapeHTML(talk.time?.[1])}</time></div>
+        ${talk.type ? `<span class="talk-label">${escapeHTML(talk.type)}</span>` : ''}
+      </div>
+      <div class="talk-person-heading">
+        <h4>${name}</h4>
+        ${speaker.desc ? `<p class="talk-affiliation">${escapeHTML(speaker.desc)}</p>` : ''}
+      </div>
       ${image}
       <div class="talk-content">
-        <div class="talk-person-heading"><h4>${name}</h4>${talk.type ? `<span class="talk-label">${escapeHTML(talk.type)}</span>` : ''}</div>
-        <p class="talk-affiliation">${escapeHTML(speaker.desc)}</p>
-        <h5 class="item-title">${escapeHTML(talk.title)}</h5>
+        <p class="talk-summary-label">演讲摘要</p>
         <p class="item-body">${escapeHTML(talk.desc)}</p>
         ${resources ? `<div class="talk-resources">${resources}</div>` : ''}
       </div>
