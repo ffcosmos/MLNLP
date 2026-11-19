@@ -95,7 +95,7 @@ p { margin: 0 0 1rem; }
 .about-item b { color: var(--heading); font-weight: 650; }
 
 /* Topic navigation: single-line type and a fine selected underline. */
-.agenda-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin: 0 0 16px; }
+.agenda-heading { position: relative; display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin: 0 0 16px; padding-bottom: 11px; }
 .agenda-heading h3 { margin: 0; color: var(--heading); font-size: 16px; }
 #schedule .nav-tabs { display: flex; flex-wrap: nowrap; align-items: stretch; gap: 24px; margin: 0 0 30px; padding: 0; border: 0; border-bottom: 1px solid var(--line); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: rgba(14, 165, 233, .25) transparent; }
 #schedule .nav-item { flex: 1 0 auto; min-width: max-content; }
@@ -127,7 +127,7 @@ p { margin: 0 0 1rem; }
 .session-action { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 8px 14px; color: var(--accent-dark); background: rgba(224, 242, 254, .72); border: 1px solid rgba(14, 165, 233, .18); border-radius: 8px; font-size: 12px; font-weight: 550; }
 .session-action:hover { color: var(--accent-dark); background: var(--accent-soft); border-color: rgba(14, 165, 233, .35); }
 .talks-heading { position: relative; display: flex; align-items: center; gap: 12px; margin: 32px 0 16px; padding-bottom: 11px; color: var(--heading); font-size: 14px; font-weight: 600; }
-.talks-heading::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: linear-gradient(90deg, rgba(3, 105, 161, .48), rgba(100, 116, 139, .18) 45%, transparent); }
+.agenda-heading::after, .talks-heading::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: linear-gradient(90deg, rgba(3, 105, 161, .48), rgba(100, 116, 139, .18) 45%, transparent); }
 .talks-heading span { color: var(--muted); font-size: 11px; font-weight: 400; }
 .schedule-item { display: grid; grid-template-columns: 76px minmax(0, 1fr); align-items: start; gap: 24px 28px; margin-bottom: 14px; padding: 29px 30px; border: 1px solid var(--line); border-radius: 13px; background: var(--surface); transition: border-color .2s, box-shadow .2s; }
 .schedule-item:hover { border-color: rgba(14, 165, 233, .22); box-shadow: 0 8px 26px #0f172a04; }
