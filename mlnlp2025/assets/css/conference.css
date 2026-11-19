@@ -109,7 +109,7 @@ p { margin: 0 0 1rem; }
 .session-date { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding-left: 14px; border-left: 1px solid var(--line); color: var(--muted); font-size: .875rem; }
 .session-chairs { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 24px; margin-block: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .chair-section-label { flex-shrink: 0; margin: 0; color: var(--muted); font-size: .875rem; font-weight: 500; }
-.chair-list { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px 24px; max-width: 100%; }
+.chair-list { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px 32px; max-width: 100%; }
 .chair-card { display: flex; flex: 0 1 auto; align-items: center; justify-content: center; gap: 12px; min-width: 0; max-width: 276px; }
 .chair-card > div:last-child { min-width: 0; max-width: 180px; }
 .chair-portrait { flex: 0 0 66px; width: 66px; height: 66px; padding: 3px; border: 1px solid rgba(14, 165, 233, .18); border-radius: 50%; background: #fff; box-shadow: 0 5px 15px rgba(14, 165, 233, .04); }
@@ -219,7 +219,7 @@ p { margin: 0 0 1rem; }
   .schedule-chair-item { padding: 25px 22px; }
   .session-heading h3 { font-size: 23px; }
   .session-chairs { gap: 14px 20px; margin-block: 18px; padding-bottom: 18px; }
-  .chair-list { gap: 16px 20px; }
+  .chair-list { gap: 16px 28px; }
   .chair-card { gap: 10px; }
   .chair-portrait { flex-basis: 56px; width: 56px; height: 56px; }
   .chair-name { font-size: 15px; }
