@@ -93,7 +93,6 @@ p { margin: 0 0 1rem; }
 /* Topic navigation: single-line type and a fine selected underline. */
 .agenda-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin: 0 0 16px; }
 .agenda-heading h3 { margin: 0; color: var(--heading); font-size: 16px; }
-.agenda-heading > span { color: var(--muted); font-size: 11px; }
 #schedule .nav-tabs { display: flex; flex-wrap: nowrap; align-items: stretch; gap: 24px; margin: 0 0 30px; padding: 0; border: 0; border-bottom: 1px solid var(--line); overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; scrollbar-color: rgba(14, 165, 233, .25) transparent; }
 #schedule .nav-item { flex: 1 0 auto; min-width: max-content; }
 #schedule .nav-tabs .nav-link { display: flex; align-items: center; justify-content: center; position: relative; min-height: 58px; margin: 0; padding: 17px 4px; border: 0; border-radius: 0; color: var(--muted); background: transparent; text-align: center; white-space: nowrap; font-size: .875rem; font-weight: 550; line-height: 1.5; }
@@ -258,7 +257,6 @@ p { margin: 0 0 1rem; }
   .brand-year { font-size: 12px; }
   .buy-tickets { margin-left: 10px; padding-inline: 14px; }
   .mobile-nav-toggle { margin-left: 6px; }
-  .agenda-heading > span { font-size: 10px; }
   .schedule-chair-item { padding: 24px 18px; }
   .session-heading h3 { font-size: 21px; }
   .chair-list { flex-direction: column; align-items: stretch; width: min(100%, 280px); gap: 18px; }
