@@ -85,7 +85,7 @@ p { margin: 0 0 1rem; }
 .section-header p { margin: 0; color: var(--muted); font-size: 14px; }
 .section-header::after { content: ""; display: block; width: 42px; height: 2px; margin: 22px auto 0; background: linear-gradient(90deg, transparent, #38bdf8, transparent); }
 #about_content { width: 100%; max-width: 880px; }
-.about-item p { margin: 0; font-size: 16px; line-height: 2.1; text-align: justify; }
+.about-item p { margin: 0; font-size: 17px; line-height: 2; text-align: justify; }
 .about-item b { color: var(--heading); font-weight: 650; }
 
 /* Topic navigation: single-line type and a fine selected underline. */
@@ -115,8 +115,8 @@ p { margin: 0 0 1rem; }
 .chair-portrait { flex: 0 0 76px; width: 76px; height: 76px; outline: 1px solid rgba(14, 165, 233, .18); outline-offset: 3px; border-radius: 50%; background: #fff; box-shadow: 0 5px 15px rgba(14, 165, 233, .04); }
 .chair-portrait img { display: block; width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center 25%; background: #f8fbff; }
 .chair-name { margin: 0 0 4px; color: var(--ink); font-size: 16px; font-weight: 650; }
-.chair-affiliation { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.65; overflow-wrap: anywhere; }
-.session-description { margin: 0; font-size: 14px; line-height: 1.95; }
+.chair-affiliation { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.65; overflow-wrap: anywhere; }
+.session-description { margin: 0; font-size: 15px; line-height: 1.95; }
 .session-description strong { color: var(--heading); font-weight: 650; }
 .session-action { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 8px 14px; color: var(--accent-dark); background: rgba(224, 242, 254, .72); border: 1px solid rgba(14, 165, 233, .18); border-radius: 8px; font-size: 12px; font-weight: 550; }
 .session-action:hover { color: var(--accent-dark); background: var(--accent-soft); border-color: rgba(14, 165, 233, .35); }
@@ -133,10 +133,10 @@ p { margin: 0 0 1rem; }
 .talk-person-heading h4 { margin: 0; font-size: 18px; }
 .talk-person-heading h4 a { color: inherit; }
 .talk-person-heading h4 a:hover { color: var(--accent-dark); }
-.talk-affiliation { margin: 5px 0 14px; color: var(--muted); font-size: 12px; }
+.talk-affiliation { margin: 5px 0 14px; color: var(--muted); font-size: 13px; }
 .talk-label { padding: 3px 9px; border: 1px solid rgba(14, 165, 233, .18); border-radius: 5px; color: var(--accent-dark); background: rgba(224, 242, 254, .72); font-size: 10px; white-space: nowrap; }
 .item-title { margin: 0 0 10px; color: var(--heading); font-size: 16px; font-weight: 650; line-height: 1.65; }
-.item-body { margin: 0; color: var(--body); font-size: 13px; line-height: 1.95; overflow-wrap: anywhere; }
+.item-body { margin: 0; color: var(--body); font-size: 14px; line-height: 1.95; overflow-wrap: anywhere; }
 .talk-resources { display: flex; gap: 16px; margin-top: 12px; font-size: 12px; }
 .schedule-loading, .schedule-error { padding: 50px 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); text-align: center; color: var(--muted); font-size: 14px; }
 .schedule-error p { margin-bottom: 16px; }
@@ -154,7 +154,7 @@ p { margin: 0 0 1rem; }
 #committee .member-info { width: 100%; padding: 22px 0 0; }
 #committee .member-info h4 { margin: 0 0 7px; color: var(--ink); font-size: 20px; }
 #committee .member:hover h4 { color: var(--accent-dark); }
-#committee .member-info span { display: block; color: var(--muted); font-size: 13px; line-height: 1.7; }
+#committee .member-info span { display: block; color: var(--muted); font-size: 14px; line-height: 1.7; }
 #committee .member-info .member-title { margin-top: 4px; }
 
 /* Previous editions and a light footer keep the page visually continuous. */
@@ -212,7 +212,7 @@ p { margin: 0 0 1rem; }
   .section-header { margin-bottom: 32px; }
   .section-header h2 { font-size: 28px; }
   .section-header p { font-size: 13px; }
-  .about-item p { font-size: 14px; line-height: 2; }
+  .about-item p { font-size: 15px; line-height: 2; }
   #schedule .nav-tabs { gap: 26px; }
   #schedule .nav-item { flex: 0 0 auto; }
   #schedule .nav-tabs .nav-link { min-height: 54px; padding-inline: 2px; }
@@ -223,19 +223,19 @@ p { margin: 0 0 1rem; }
   .chair-card { gap: 10px; }
   .chair-portrait { flex-basis: 60px; width: 60px; height: 60px; }
   .chair-name { font-size: 15px; }
-  .chair-affiliation { font-size: 11px; }
-  .session-description { font-size: 13px; }
+  .chair-affiliation { font-size: 12px; }
+  .session-description { font-size: 14px; }
   .schedule-item { grid-template-columns: 60px minmax(0, 1fr); gap: 16px; padding: 24px 22px; }
   .talk-time { grid-column: 1 / -1; flex-direction: row; align-items: baseline; gap: 9px; padding-bottom: 12px; border-bottom: 1px solid var(--line); font-size: 13px; }
   .end-time::before { content: "— "; }
   .speaker { width: 60px; height: 60px; }
   .talk-person-heading h4 { font-size: 17px; }
   .item-title { font-size: 15px; }
-  .item-body { font-size: 12px; }
+  .item-body { font-size: 14px; }
   #committee .schedule-item { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; }
   #committee .member .speaker { width: 132px; height: 132px; }
   #committee .member-info h4 { font-size: 18px; }
-  #committee .member-info span { font-size: 12px; }
+  #committee .member-info span { font-size: 13px; }
   .committee-group-wrap + .committee-group-wrap { margin-top: 46px; }
   .team-chair { font-size: 19px; }
   .gallery-slider { margin-inline: 22px; }
@@ -267,13 +267,13 @@ p { margin: 0 0 1rem; }
   .chair-affiliation { font-size: 12px; }
   .schedule-item { grid-template-columns: 48px minmax(0, 1fr); gap: 13px; padding: 20px 16px; }
   .speaker { width: 48px; height: 48px; }
-  .talk-affiliation { font-size: 11px; }
+  .talk-affiliation { font-size: 12px; }
   #committee .schedule-item { gap: 20px 10px; }
   #committee .member { padding-inline: 0; }
   #committee .member .speaker { width: min(100%, 116px); height: auto; aspect-ratio: 1; }
   #committee .member-info { padding-top: 18px; }
   #committee .member-info h4 { font-size: 17px; }
-  #committee .member-info span { font-size: 11px; }
+  #committee .member-info span { font-size: 12px; }
   .footer-top > .container > .row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
   .footer-info { grid-column: 1 / -1; }
   .footer-contact { grid-column: auto; grid-row: auto; }
