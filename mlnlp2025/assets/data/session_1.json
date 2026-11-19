@@ -1,6 +1,18 @@
 {
 	"session_name": "Session 1: 多模态大模型 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 09:05-11:05) </span>",
 	"session_chair": "论坛主席：田倬韬 (哈尔滨工业大学) &nbsp;&nbsp;&nbsp;&nbsp; 蒋理 (香港中文大学)",
+	"session_chairs": [
+	  {
+	    "name": "田倬韬",
+	    "affiliation": "哈尔滨工业大学",
+	    "img": "assets/img/committee/tianzhuotao.png"
+	  },
+	  {
+	    "name": "蒋理",
+	    "affiliation": "香港中文大学",
+	    "img": "assets/img/committee/jiangli.png"
+	  }
+	],
 	"session_desc": "本次论坛将聚焦于多模态大模型的前沿研究与实际应用。四位来自学术界与工业界的顶尖专家将围绕多模态智能的核心议题展开深入探讨：从具身智能中的多模态感知与决策，到长视频内容的理解、推理与生成；从可控视觉生成技术在工业场景中的落地实践，到构建通用多模态智能系统的路径与挑战。论坛还将梳理多模态大模型的发展脉络，剖析其在融合语言、视觉、语音等多源信息方面的关键技术突破，并展望其在人机交互、内容创作等领域的广阔前景。通过本次交流，论坛旨在推动多模态大模型的理论创新与产业应用，助力迈向更加智能、协同与通用的人工智能未来。",
 	"session_time": [
 		"09:05",

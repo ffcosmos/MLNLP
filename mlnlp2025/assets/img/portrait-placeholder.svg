@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <title>人物照片占位</title>
+  <defs><linearGradient id="surface" x2="1" y2="1"><stop stop-color="#f3f8fc"/><stop offset="1" stop-color="#dfedf3"/></linearGradient></defs>
+  <rect width="200" height="200" rx="100" fill="url(#surface)"/>
+  <circle cx="100" cy="76" r="29" fill="#bfd4df"/>
+  <path d="M43 174c0-34 24-58 57-58s57 24 57 58" fill="#bfd4df"/>
+  <circle cx="100" cy="100" r="92" fill="none" stroke="#fff" stroke-opacity=".8"/>
+</svg>

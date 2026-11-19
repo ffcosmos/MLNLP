@@ -1,6 +1,18 @@
 {
   "session_name": "Session 4: 大模型智能体 <span style=\"white-space: pre;word-break: break-word;\"> (11月30日 09:00-11:00) </span>",
   "session_chair": "论坛主席：钱忱 (上海交通大学) &nbsp;&nbsp;&nbsp;&nbsp; 从鑫 (清华大学)",
+  "session_chairs": [
+    {
+      "name": "钱忱",
+      "affiliation": "上海交通大学",
+      "img": "assets/img/committee/qianchen.png"
+    },
+    {
+      "name": "从鑫",
+      "affiliation": "清华大学",
+      "img": "assets/img/committee/congxin.png"
+    }
+  ],
   "session_desc": "随着人工智能的快速发展，大语言模型（LLM）正从单一的文本生成系统演化为具备感知、推理、决策与行动能力的自主智能体（Agent）。本论坛以“大模型智能体”为主题，聚焦智能体的工具学习、任务执行、多模态交互与社会化协作等前沿方向，探讨如何让大模型从“会说话”走向“会做事”。论坛邀请来自上海交通大学、清华大学、阿里巴巴、电子科技大学等高校与企业的多位知名学者与研究者，围绕大模型工具使用方法与挑战、自主智能体的学习与规划、多端多模态交互智能体设计以及语言模型在复杂社会行为建模中的应用等主题展开深入报告与讨论。论坛旨在促进学术界与产业界的交流合作，推动大模型智能体的理论创新与落地应用，为人工智能的发展注入新动能。",
   "session_time": [
     "9:00",

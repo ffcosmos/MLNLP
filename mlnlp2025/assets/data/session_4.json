@@ -1,6 +1,18 @@
 {
   "session_name": "特别Session：学生研讨会 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 19:00-21:00) </span>",
   "session_chair": "论坛主席：张绍磊 (中国人民大学)  &nbsp;&nbsp;&nbsp;&nbsp; 涂耿 (哈尔滨工业大学（深圳）)",
+  "session_chairs": [
+    {
+      "name": "张绍磊",
+      "affiliation": "中国人民大学",
+      "img": "assets/img/committee/zhangshaolei.png"
+    },
+    {
+      "name": "涂耿",
+      "affiliation": "哈尔滨工业大学（深圳）",
+      "img": "assets/img/committee/tugeng.png"
+    }
+  ],
   "session_desc": "科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。",
   "session_time": [
     "19:00",

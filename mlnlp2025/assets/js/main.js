@@ -1,232 +1,92 @@
 /**
-* Template Name: TheEvent - v4.9.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-(function() {
-  "use strict";
-
-  /**
-   * Easy selector helper function
-   */
-  const select = (el, all = false) => {
-    el = el.trim()
-    if (all) {
-      return [...document.querySelectorAll(el)]
-    } else {
-      return document.querySelector(el)
-    }
+ * MLNLP 2025 navigation and gallery.
+ * Based on TheEvent by BootstrapMade (https://bootstrapmade.com/license/).
+ */
+(() => {
+  'use strict';
+  const header = document.querySelector('#header');
+  const navbar = document.querySelector('#navbar');
+  const toggle = document.querySelector('.mobile-nav-toggle');
+  const toTop = document.querySelector('.back-to-top');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const navLinks = Array.from(navbar.querySelectorAll('a[href^="#"]'));
+  function closeMenu() {
+    navbar.classList.remove('navbar-mobile');
+    toggle.classList.replace('bi-x', 'bi-list');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.setAttribute('aria-label', '打开导航菜单');
   }
-
-  /**
-   * Easy event listener function
-   */
-  const on = (type, el, listener, all = false) => {
-    let selectEl = select(el, all)
-    if (selectEl) {
-      if (all) {
-        selectEl.forEach(e => e.addEventListener(type, listener))
-      } else {
-        selectEl.addEventListener(type, listener)
-      }
-    }
-  }
-
-  /**
-   * Easy on scroll event listener 
-   */
-  const onscroll = (el, listener) => {
-    el.addEventListener('scroll', listener)
-  }
-
-  /**
-   * Navbar links active state on scroll
-   */
-  let navbarlinks = select('#navbar .scrollto', true)
-  const navbarlinksActive = () => {
-    let position = window.scrollY + 200
-    navbarlinks.forEach(navbarlink => {
-      if (!navbarlink.hash) return
-      let section = select(navbarlink.hash)
-      if (!section) return
-      if (position >= section.offsetTop && position <= (section.offsetTop + section.offsetHeight)) {
-        navbarlink.classList.add('active')
-      } else {
-        navbarlink.classList.remove('active')
-      }
-    })
-  }
-  window.addEventListener('load', navbarlinksActive)
-  onscroll(document, navbarlinksActive)
-
-  /**
-   * Scrolls to an element with header offset
-   */
-  const scrollto = (el) => {
-    let header = select('#header')
-    let offset = header.offsetHeight
-
-    if (!header.classList.contains('header-scrolled')) {
-      offset -= 20
-    }
-
-    let elementPos = select(el).offsetTop
-    window.scrollTo({
-      top: elementPos - offset,
-      behavior: 'smooth'
-    })
-  }
-
-  /**
-   * Toggle .header-scrolled class to #header when page is scrolled
-   */
-  let selectHeader = select('#header')
-  if (selectHeader) {
-    const headerScrolled = () => {
-      if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
-        selectHeader.classList.remove('header-unscrolled')
-      } else {
-        selectHeader.classList.add('header-unscrolled')
-        selectHeader.classList.remove('header-scrolled')
-      }
-    }
-    window.addEventListener('load', headerScrolled)
-    onscroll(document, headerScrolled)
-  }
-
-  /**
-   * Back to top button
-   */
-  let backtotop = select('.back-to-top')
-  if (backtotop) {
-    const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
-        backtotop.classList.add('active')
-      } else {
-        backtotop.classList.remove('active')
-      }
-    }
-    window.addEventListener('load', toggleBacktotop)
-    onscroll(document, toggleBacktotop)
-  }
-
-  /**
-   * Mobile nav toggle
-   */
-  on('click', '.mobile-nav-toggle', function(e) {
-    select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
-  })
-
-  /**
-   * Mobile nav dropdowns activate
-   */
-  on('click', '.navbar .dropdown > a', function(e) {
-    if (select('#navbar').classList.contains('navbar-mobile')) {
-      e.preventDefault()
-      this.nextElementSibling.classList.toggle('dropdown-active')
-    }
-  }, true)
-
-  /**
-   * Scrool with ofset on links with a class name .scrollto
-   */
-  on('click', '.scrollto', function(e) {
-    if (select(this.hash)) {
-      e.preventDefault()
-
-      let navbar = select('#navbar')
-      if (navbar.classList.contains('navbar-mobile')) {
-        navbar.classList.remove('navbar-mobile')
-        let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
-      }
-      scrollto(this.hash)
-    }
-  }, true)
-
-  /**
-   * Scroll with ofset on page load with hash links in the url
-   */
-  window.addEventListener('load', () => {
-    if (window.location.hash) {
-      if (select(window.location.hash)) {
-        scrollto(window.location.hash)
-      }
+  toggle.addEventListener('click', () => {
+    const open = navbar.classList.toggle('navbar-mobile');
+    toggle.classList.toggle('bi-list', !open);
+    toggle.classList.toggle('bi-x', open);
+    toggle.setAttribute('aria-expanded', String(open));
+    toggle.setAttribute('aria-label', open ? '关闭导航菜单' : '打开导航菜单');
+  });
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && navbar.classList.contains('navbar-mobile')) {
+      closeMenu();
+      toggle.focus();
     }
   });
-
-  /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
+  document.addEventListener('click', event => {
+    if (!navbar.contains(event.target)) closeMenu();
   });
-
-  /**
-   * Gallery Slider
-   */
-  new Swiper('.gallery-slider', {
-    speed: 400,
-    loop: true,
-    centeredSlides: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    },
-    breakpoints: {
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 20
-      },
-      575: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 20
-      },
-      992: {
-        slidesPerView: 5,
-        spaceBetween: 30
-      }
+  window.matchMedia('(min-width: 992px)').addEventListener('change', event => {
+    if (event.matches) closeMenu();
+  });
+  function updateNavigation() {
+    header.classList.toggle('header-scrolled', window.scrollY > 24);
+    toTop.classList.toggle('active', window.scrollY > 400);
+    let current = navLinks[0];
+    for (const link of navLinks) {
+      const section = document.getElementById(link.hash.slice(1));
+      if (section && section.getBoundingClientRect().top <= header.offsetHeight + 100) current = link;
     }
-  });
-
-  /**
-   * Initiate gallery lightbox 
-   */
-  const galleryLightbox = GLightbox({
-    selector: '.gallery-lightbox'
-  });
-
-  /**
-   * Buy tickets select the ticket type on click
-   */
-  on('show.bs.modal', '#buy-ticket-modal', function(event) {
-    select('#buy-ticket-modal #ticket-type').value = event.relatedTarget.getAttribute('data-ticket-type')
-  })
-
-  /**
-   * Animation on scroll
-   */
-  window.addEventListener('load', () => {
-    AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
+    for (const link of navLinks) {
+      link.classList.toggle('active', link === current);
+      if (link === current) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    }
+  }
+  let scheduled = false;
+  window.addEventListener('scroll', () => {
+    if (scheduled) return;
+    scheduled = true;
+    requestAnimationFrame(() => { updateNavigation(); scheduled = false; });
+  }, { passive: true });
+  window.addEventListener('load', updateNavigation);
+  updateNavigation();
+  document.querySelectorAll('.scrollto, .back-to-top').forEach(link => {
+    link.addEventListener('click', event => {
+      if (!link.hash || link.origin !== window.location.origin || link.pathname !== window.location.pathname) return;
+      const target = document.getElementById(link.hash.slice(1));
+      if (!target) return;
+      event.preventDefault();
+      closeMenu();
+      window.scrollTo({
+        top: target.getBoundingClientRect().top + window.scrollY - header.offsetHeight - 16,
+        behavior: reducedMotion.matches ? 'auto' : 'smooth'
+      });
+      history.replaceState(null, '', link.hash);
     });
   });
-})()
+  if (window.Swiper) {
+    new Swiper('.gallery-slider', {
+      speed: reducedMotion.matches ? 0 : 400,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      watchOverflow: true,
+      pagination: { el: '.swiper-pagination', type: 'bullets', clickable: true },
+      a11y: { enabled: true, paginationBulletMessage: '前往第 {{index}} 组活动' },
+      keyboard: { enabled: true, onlyInViewport: true },
+      breakpoints: { 575: { slidesPerView: 2 }, 992: { slidesPerView: 3, spaceBetween: 24 } }
+    });
+  }
+  // Decorative animations must never prevent access to content.
+  if (window.AOS && !reducedMotion.matches) {
+    AOS.init({ duration: 500, easing: 'ease-out', once: true, offset: 30 });
+  } else {
+    document.querySelectorAll('[data-aos]').forEach(element => element.removeAttribute('data-aos'));
+  }
+})();

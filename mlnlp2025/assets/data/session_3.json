@@ -1,6 +1,18 @@
 {
   "session_name": "Session 3: 大模型推理 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 15:30-17:30) </span>",
   "session_chair": "论坛主席：张倬胜 (上海交通大学)  &nbsp;&nbsp;&nbsp;&nbsp; 张林峰 (上海交通大学)",
+  "session_chairs": [
+    {
+      "name": "张倬胜",
+      "affiliation": "上海交通大学",
+      "img": "assets/img/committee/zhangzhuosheng.png"
+    },
+    {
+      "name": "张林峰",
+      "affiliation": "上海交通大学",
+      "img": "assets/img/committee/zhanglinfeng.jpeg"
+    }
+  ],
   "session_desc": "大模型推理技术的发展，深刻影响着人工智能模型的性能提升与场景拓展。本论坛聚焦大模型推理领域的最新研究进展与理论创新，特邀四位领域内专家学者，深入探讨前沿推理技术与底层机理。报告内容涵盖多智能体系统驱动的大模型推理、高效可信的大模型推理、大推理模型RL训练中的人类先验、循环Transformer的机制探索。论坛将从技术与机理双重视角，通过学术交流与经验分享，深化对大模型推理技术的认知，为理论研究与技术突破提供思路。",
   "session_time": [
     "15:30",

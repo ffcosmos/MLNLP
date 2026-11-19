@@ -1,6 +1,18 @@
 {
   "session_name": "Session 5: 大模型记忆 <span style=\"white-space: pre;word-break: break-word;\"> (11月30日 13:00-15:00) </span>",
   "session_chair": "论坛主席：张宁豫 (浙江大学) &nbsp;&nbsp;&nbsp;&nbsp; 庞亮 (中国科学院计算技术研究所)",
+  "session_chairs": [
+    {
+      "name": "张宁豫",
+      "affiliation": "浙江大学",
+      "img": "assets/img/committee/zhangningyu.jpeg"
+    },
+    {
+      "name": "庞亮",
+      "affiliation": "中国科学院计算技术研究所",
+      "img": "assets/img/committee/pangliang.png"
+    }
+  ],
   "session_desc": "本次论坛聚焦于大模型（智能体）在记忆机制与知识更新能力方面的前沿研究与工程实践，来自学术界和产业界的四位学者将探讨大模型智能体记忆机制、方法与应用。通过思想碰撞，论坛旨在促进对大模型（智能体）记忆的深入理解和应用，为构建具备持续学习能力、长期记忆与自我进化的人工智能贡献力量。",
   "session_time": [
     "13:00",

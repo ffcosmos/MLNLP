@@ -1,6 +1,18 @@
 {
   "session_name": "Session 2: 大模型安全 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 13:00-15:00) </span>",
   "session_chair": "论坛主席：董胤蓬 (清华大学) &nbsp;&nbsp;&nbsp;&nbsp; 翟胜方 (新加坡国立大学)",
+  "session_chairs": [
+    {
+      "name": "董胤蓬",
+      "affiliation": "清华大学",
+      "img": "assets/img/committee/dongyinpeng.png"
+    },
+    {
+      "name": "翟胜方",
+      "affiliation": "新加坡国立大学",
+      "img": "assets/img/committee/zhaishengfang.png"
+    }
+  ],
   "session_desc": "本次论坛将聚焦大模型安全领域的最新研究与应用，邀请来自国内外学术界与工业界的四位专家学者，探讨多模态与语言大模型在安全、可信及风险防控方面的研究进展与实践经验。报告内容涵盖多模态生成模型的内生与衍生安全、大语言模型的红队测试与风险评估、对抗与越狱攻击的系统分析，以及模型治理与协同安全的新方法。论坛将通过多角度的学术交流与经验分享，促进对大模型安全问题的深入理解，推动人工智能安全与可信研究的持续发展。",
   "session_time": [
     "13:30",
