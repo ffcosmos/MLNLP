@@ -118,7 +118,7 @@
       </div>
       <p class="session-description"><strong>论坛简介：</strong>${escapeHTML(data.session_desc)}</p>
     </div>
-    <h3 class="talks-heading">报告日程 <span>${talks.length} 场报告</span></h3>
+    <h3 class="talks-heading">报告日程</h3>
     ${talks.map(renderTalk).join('')}`;
   }
   // Keep each portrait slot stable when a photo has not been supplied or fails.
