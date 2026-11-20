@@ -65,6 +65,8 @@
     const image = url ? `<a class="speaker" href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${photo}</a>` : `<div class="speaker">${photo}</div>`;
     const name = url ? `<a href="${escapeHTML(url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(speaker.name)}</a>` : escapeHTML(speaker.name);
     const resources = resourceLink(talk.slides, '演讲资料') + resourceLink(talk.recoding, '报告回放');
+    const start = talk.time?.[0];
+    const end = talk.time?.[1];
     return `<article class="schedule-item">
       <div class="talk-header">
         <div class="talk-person-heading">
@@ -72,8 +74,13 @@
           ${speaker.desc ? `<p class="talk-affiliation">${escapeHTML(speaker.desc)}</p>` : ''}
         </div>
         <div class="talk-meta">
-          <div class="talk-time" aria-label="报告时间"><time>${escapeHTML(talk.time?.[0])}</time><time class="end-time">${escapeHTML(talk.time?.[1])}</time></div>
           ${talk.type ? `<span class="talk-label">${escapeHTML(talk.type)}</span>` : ''}
+          ${start || end ? `<div class="talk-time" role="group" aria-label="报告时间">
+            <i class="bi bi-clock" aria-hidden="true"></i>
+            ${start ? `<time>${escapeHTML(start)}</time>` : ''}
+            ${start && end ? '<span>–</span>' : ''}
+            ${end ? `<time>${escapeHTML(end)}</time>` : ''}
+          </div>` : ''}
         </div>
       </div>
       ${image}
@@ -93,14 +100,14 @@
     if (date) date.remove();
     const sessionName = template.content.textContent.trim();
     const parts = sessionName.split(/[:：]/);
-    const kicker = parts.length > 1 ? parts.shift().trim() : '专题论坛';
+    const kicker = parts.length > 1 ? parts.shift().trim() : '';
     const title = parts.join('：').trim() || sessionName;
     const chairs = Array.isArray(data.session_chairs) ? data.session_chairs : [];
     const talks = Array.isArray(data.session_list) ? data.session_list : [];
     return `<div class="schedule-chair-item">
       <div class="session-heading">
         <div class="session-meta">
-          <span class="session-kicker">${escapeHTML(kicker)}</span>
+          ${kicker ? `<span class="session-kicker">${escapeHTML(kicker)}</span>` : ''}
           ${dateText ? `<span class="session-date"><i class="bi bi-calendar3" aria-hidden="true"></i>${escapeHTML(dateText)}</span>` : ''}
         </div>
         <h3>${escapeHTML(title)}</h3>
@@ -148,13 +155,6 @@
   tabs.forEach((tab, index) => {
     tab.addEventListener('shown.bs.tab', () => {
       tabs.forEach(item => item.tabIndex = item === tab ? 0 : -1);
-      const list = tab.closest('[role="tablist"]');
-      if (list.scrollWidth > list.clientWidth) {
-        const tabRect = tab.getBoundingClientRect();
-        const listRect = list.getBoundingClientRect();
-        if (tabRect.left < listRect.left) list.scrollLeft += tabRect.left - listRect.left - 8;
-        else if (tabRect.right > listRect.right) list.scrollLeft += tabRect.right - listRect.right + 8;
-      }
       window.AOS?.refresh();
     });
     tab.addEventListener('keydown', event => {
