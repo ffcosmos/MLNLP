@@ -22,7 +22,7 @@ body {
   margin: 0;
   color: var(--body);
   font-family: var(--font-body);
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.7;
   background: linear-gradient(180deg, #f8fbff 0%, #eff7fa 45%, #f8fbff 100%);
   -webkit-font-smoothing: antialiased;
@@ -86,11 +86,11 @@ p { margin: 0 0 1rem; }
 #about, #schedule, #committee, #gallery { padding-block: 86px; }
 #about { border-block: 1px solid var(--line); background: #ffffff65; }
 .section-header { margin-bottom: 42px; text-align: center; }
-.section-header h2 { margin: 10px 0 12px; font-size: 36px; font-weight: 650; letter-spacing: -.035em; }
+.section-header h2 { margin: 10px 0 12px; font-size: 34px; font-weight: 650; letter-spacing: -.035em; }
 .section-header::after { content: ""; display: block; width: 42px; height: 2px; margin: 22px auto 0; background: linear-gradient(90deg, transparent, #38bdf8, transparent); }
 #about_content { width: 100%; max-width: 880px; }
 .about-item { padding: 28px 32px; border: 1px solid #bae6fd; border-radius: 10px; background: #f0f9ff; }
-.about-item p { margin: 0; font-size: 19px; line-height: 1.9; text-align: left; overflow-wrap: anywhere; }
+.about-item p { margin: 0; font-size: 18px; line-height: 1.9; text-align: left; overflow-wrap: anywhere; }
 .about-item b { color: var(--heading); font-weight: 650; }
 
 /* Forum buttons wrap on narrow screens. */
@@ -105,7 +105,7 @@ p { margin: 0 0 1rem; }
   border-radius: 8px;
   color: #355679;
   background: #f0f5fb;
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 650;
   line-height: 1.5;
   white-space: nowrap;
@@ -121,7 +121,7 @@ p { margin: 0 0 1rem; }
 .session-heading { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; }
 .session-meta { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px 14px; }
 .session-kicker { color: var(--muted); font-size: 14px; font-weight: 600; letter-spacing: .04em; }
-.session-heading h3 { margin: 0; font-size: 32px; letter-spacing: -.025em; }
+.session-heading h3 { margin: 0; font-size: 30px; letter-spacing: -.025em; }
 .session-date { display: inline-flex; align-items: center; justify-content: center; gap: 8px; padding-left: 14px; border-left: 1px solid var(--line); color: var(--accent-dark); font-size: 16px; font-weight: 600; }
 .session-chairs { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 14px 24px; margin-block: 20px; padding-bottom: 20px; border-bottom: 1px solid var(--line); }
 .chair-section-label { flex-shrink: 0; margin: 0; color: var(--muted); font-size: 16px; font-weight: 500; }
@@ -130,13 +130,13 @@ p { margin: 0 0 1rem; }
 .chair-card > div:last-child { min-width: 0; max-width: 180px; }
 .chair-portrait { flex: 0 0 76px; width: 76px; height: 76px; outline: 1px solid rgba(14, 165, 233, .18); outline-offset: 3px; border-radius: 50%; background: #fff; box-shadow: 0 5px 15px rgba(14, 165, 233, .04); }
 .chair-portrait img { display: block; width: 100%; height: 100%; border-radius: 50%; object-fit: cover; object-position: center 25%; background: #f8fbff; }
-.chair-name { margin: 0 0 4px; color: var(--ink); font-size: 18px; font-weight: 650; }
+.chair-name { margin: 0 0 4px; color: var(--ink); font-size: 17px; font-weight: 650; }
 .chair-affiliation { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.65; overflow-wrap: anywhere; }
-.session-description { margin: 0; font-size: 18px; line-height: 1.9; }
+.session-description { margin: 0; font-size: 17px; line-height: 1.9; }
 .session-description strong { color: var(--heading); font-weight: 650; }
 .session-action { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 40px; padding: 8px 14px; color: var(--accent-dark); background: rgba(224, 242, 254, .72); border: 1px solid rgba(14, 165, 233, .18); border-radius: 8px; font-size: 14px; font-weight: 550; }
 .session-action:hover { color: var(--accent-dark); background: var(--accent-soft); border-color: rgba(14, 165, 233, .35); }
-.talks-heading { position: relative; margin: 32px 0 16px; padding-bottom: 11px; color: var(--heading); font-size: 19px; font-weight: 650; }
+.talks-heading { position: relative; margin: 32px 0 16px; padding-bottom: 11px; color: var(--heading); font-size: 18px; font-weight: 650; }
 .talks-heading::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: linear-gradient(90deg, rgba(3, 105, 161, .48), rgba(100, 116, 139, .18) 45%, transparent); }
 #schedule .schedule-item {
   display: grid;
@@ -175,13 +175,13 @@ p { margin: 0 0 1rem; }
 .talk-content { min-width: 0; }
 .talk-person-heading { flex: 1 1 260px; display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 12px; min-width: 0; overflow-wrap: anywhere; }
 .talk-summary-label { margin: 0 0 12px; color: var(--muted); font-size: 16px; font-weight: 500; }
-.talk-person-heading h4 { margin: 0; font-size: 22px; }
+.talk-person-heading h4 { margin: 0; font-size: 21px; }
 .talk-person-heading h4 a { color: inherit; }
 .talk-person-heading h4 a:hover { color: var(--accent-dark); }
 .talk-affiliation { margin: 0; padding-left: 12px; border-left: 1px solid var(--line); color: var(--muted); font-size: 15px; }
 .talk-label { padding: 2px 7px; border-radius: 5px; color: var(--muted); background: #f1f5f9; font-size: 12px; white-space: nowrap; }
-.item-title { margin: 0 0 10px; color: var(--heading); font-size: 20px; font-weight: 650; line-height: 1.65; overflow-wrap: anywhere; }
-.item-body { margin: 0; color: var(--body); font-size: 18px; line-height: 1.85; overflow-wrap: anywhere; }
+.item-title { margin: 0 0 10px; color: var(--heading); font-size: 19px; font-weight: 650; line-height: 1.65; overflow-wrap: anywhere; }
+.item-body { margin: 0; color: var(--body); font-size: 17px; line-height: 1.85; overflow-wrap: anywhere; }
 .talk-resources { display: flex; flex-wrap: wrap; gap: 8px 16px; margin-top: 12px; font-size: 14px; }
 .schedule-loading, .schedule-error { padding: 50px 24px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); text-align: center; color: var(--muted); font-size: 16px; }
 .schedule-error p { margin-bottom: 16px; }
@@ -190,16 +190,16 @@ p { margin: 0 0 1rem; }
 #committee { background: linear-gradient(180deg, #edf6f980, #f8fbff60); border-top: 1px solid var(--line); }
 .sort-note { display: inline-block; margin-top: 19px; padding: 5px 13px; color: var(--accent-dark); background: rgba(224, 242, 254, .72); border: 1px solid rgba(14, 165, 233, .18); border-radius: 6px; font-size: 13px; }
 .committee-group-wrap + .committee-group-wrap { margin-top: 65px; }
-.team-chair { margin: 0 0 28px; text-align: center; color: var(--heading); font-size: 25px; font-weight: 600; }
+.team-chair { margin: 0 0 28px; text-align: center; color: var(--heading); font-size: 23px; font-weight: 600; }
 #committee .schedule-item { display: grid; grid-template-columns: repeat(3, minmax(0, 260px)); justify-content: center; gap: 38px 46px; margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; box-shadow: none; }
 #committee .schedule-card { width: 100%; padding: 0; margin: 0; justify-content: center; }
 #committee .member { display: flex; flex-direction: column; align-items: center; width: 100%; padding: 14px 10px; color: inherit; text-align: center; }
 #committee .member .speaker { width: 156px; height: 156px; border-radius: 50%; box-shadow: 0 14px 32px #0f172a14, 0 6px 16px #0ea5e909; transition: transform .25s, box-shadow .25s; }
 #committee .member:hover .speaker { transform: translateY(-5px); box-shadow: 0 18px 38px #0f172a1c; }
 #committee .member-info { width: 100%; padding: 22px 0 0; }
-#committee .member-info h4 { margin: 0 0 7px; color: var(--ink); font-size: 23px; }
+#committee .member-info h4 { margin: 0 0 7px; color: var(--ink); font-size: 22px; }
 #committee .member:hover h4 { color: var(--accent-dark); }
-#committee .member-info span { display: block; color: var(--muted); font-size: 16px; line-height: 1.7; overflow-wrap: anywhere; }
+#committee .member-info span { display: block; color: var(--muted); font-size: 15px; line-height: 1.7; overflow-wrap: anywhere; }
 #committee .member-info .member-title { margin-top: 4px; }
 
 /* Previous editions and a light footer keep the page visually continuous. */
@@ -210,13 +210,13 @@ p { margin: 0 0 1rem; }
 .gallery-slider .swiper-slide a:hover img { transform: scale(1.025); }
 .swiper-pagination-bullet { background: rgba(14, 165, 233, .25); opacity: 1; }
 .swiper-pagination-bullet-active { background: var(--accent); }
-#footer { padding-bottom: 28px; color: var(--body); background: #fff; border-top: 1px solid #e2e2e2; font-size: 16px; }
+#footer { padding-bottom: 28px; color: var(--body); background: #fff; border-top: 1px solid #e2e2e2; font-size: 15px; }
 .footer-top { padding: 48px 0 34px; border-bottom: 1px solid #e2e2e2; }
 .footer-top > .container > .row { display: grid; grid-template-columns: minmax(200px, 1.5fr) repeat(3, 140px) minmax(185px, 1.2fr); gap: 24px; margin: 0; }
 .footer-top > .container > .row > div { width: auto; min-width: 0; padding: 0; }
 .footer-brand { margin-bottom: 16px; font-size: 20px; }
 .footer-info p { max-width: 280px; margin: 0; line-height: 1.85; }
-.footer-top h4 { margin: 0 0 16px; color: var(--heading); font-size: 18px; font-weight: 600; }
+.footer-top h4 { margin: 0 0 16px; color: var(--heading); font-size: 17px; font-weight: 600; }
 .footer-wechat img { display: block; width: 140px; height: 140px; max-width: 100%; padding: 6px; object-fit: contain; border-radius: 6px; background: #fff; border: 1px solid #e2e2e2; }
 .footer-contact p { overflow-wrap: anywhere; }
 .footer-contact strong { font-weight: 500; }
@@ -260,33 +260,33 @@ p { margin: 0 0 1rem; }
   .container, #header .container-xxl { padding-inline: 22px; }
   #about, #schedule, #committee, #gallery { padding-block: 60px; }
   .section-header { margin-bottom: 32px; }
-  .section-header h2 { font-size: 32px; }
+  .section-header h2 { font-size: 30px; }
   .about-item { padding: 22px; }
-  .about-item p { font-size: 18px; }
+  .about-item p { font-size: 17px; }
   #schedule .nav-tabs { gap: 8px; }
-  #schedule .nav-tabs .nav-link { min-height: 44px; padding-inline: 10px; font-size: 16px; }
+  #schedule .nav-tabs .nav-link { min-height: 44px; padding-inline: 10px; font-size: 15px; }
   .schedule-chair-item { padding: 25px 22px; }
-  .session-heading h3 { font-size: 27px; }
+  .session-heading h3 { font-size: 25px; }
   .session-chairs { gap: 14px 20px; margin-block: 18px; padding-bottom: 18px; }
   .chair-list { gap: 16px 28px; }
   .chair-card { gap: 10px; }
   .chair-portrait { flex-basis: 60px; width: 60px; height: 60px; }
-  .chair-name { font-size: 17px; }
+  .chair-name { font-size: 16px; }
   .chair-affiliation { font-size: 14px; }
-  .session-description { font-size: 17px; }
+  .session-description { font-size: 16px; }
   #schedule .schedule-item { grid-template-columns: 60px minmax(0, 1fr); gap: 16px; padding: 24px 22px; }
   #schedule .talk-header { gap: 8px 14px; }
   .talk-time { font-size: 16px; }
   .speaker { width: 60px; height: 60px; }
-  .talk-person-heading h4 { font-size: 20px; }
-  .item-title { font-size: 19px; }
-  .item-body { font-size: 17px; }
+  .talk-person-heading h4 { font-size: 19px; }
+  .item-title { font-size: 18px; }
+  .item-body { font-size: 16px; }
   #committee .schedule-item { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 18px; }
   #committee .member .speaker { width: 132px; height: 132px; }
-  #committee .member-info h4 { font-size: 20px; }
-  #committee .member-info span { font-size: 15px; }
+  #committee .member-info h4 { font-size: 19px; }
+  #committee .member-info span { font-size: 14px; }
   .committee-group-wrap + .committee-group-wrap { margin-top: 46px; }
-  .team-chair { font-size: 22px; }
+  .team-chair { font-size: 21px; }
   .gallery-slider { margin-inline: 22px; }
 }
 @media (max-width: 575px) {
@@ -313,7 +313,7 @@ p { margin: 0 0 1rem; }
   .session-meta { flex-direction: column; gap: 4px; }
   .session-date { padding-left: 0; border-left: 0; }
   .chair-section-label { flex-basis: 100%; text-align: center; }
-  .session-heading h3 { font-size: 25px; }
+  .session-heading h3 { font-size: 23px; }
   .chair-list { flex-direction: column; align-items: stretch; width: min(100%, 280px); gap: 18px; }
   .chair-portrait { flex-basis: 48px; width: 48px; height: 48px; }
   .chair-card { gap: 14px; max-width: none; }
@@ -324,8 +324,7 @@ p { margin: 0 0 1rem; }
   #committee .member { padding-inline: 0; }
   #committee .member .speaker { width: min(100%, 116px); height: auto; aspect-ratio: 1; }
   #committee .member-info { padding-top: 18px; }
-  #committee .member-info h4 { font-size: 19px; }
-  #committee .member-info span { font-size: 14px; }
+  #committee .member-info h4 { font-size: 18px; }
   .footer-top > .container > .row { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; }
   .footer-info { grid-column: 1 / -1; }
   .footer-contact { grid-column: 1 / -1; grid-row: auto; }
