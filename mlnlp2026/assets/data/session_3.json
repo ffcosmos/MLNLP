@@ -1,0 +1,95 @@
+{
+  "session_name": "Session 3: 大模型推理 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 15:30-17:30) </span>",
+  "session_chair": "论坛主席：张倬胜 (上海交通大学)  &nbsp;&nbsp;&nbsp;&nbsp; 张林峰 (上海交通大学)",
+  "session_chairs": [
+    {
+      "name": "张倬胜",
+      "affiliation": "上海交通大学",
+      "img": "assets/img/committee/zhangzhuosheng.png"
+    },
+    {
+      "name": "张林峰",
+      "affiliation": "上海交通大学",
+      "img": "assets/img/committee/zhanglinfeng.jpeg"
+    }
+  ],
+  "session_desc": "大模型推理技术的发展，深刻影响着人工智能模型的性能提升与场景拓展。本论坛聚焦大模型推理领域的最新研究进展与理论创新，特邀四位领域内专家学者，深入探讨前沿推理技术与底层机理。报告内容涵盖多智能体系统驱动的大模型推理、高效可信的大模型推理、大推理模型RL训练中的人类先验、循环Transformer的机制探索。论坛将从技术与机理双重视角，通过学术交流与经验分享，深化对大模型推理技术的认知，为理论研究与技术突破提供思路。",
+  "session_time": [
+    "15:30",
+    "17:30"
+  ],
+  "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20251129T153000%0ADTEND;TZID=Asia/Shanghai:20251129T173000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202024%5D%20Session%203:大模型推理%0ADESCRIPTION:大模型推理技术的发展，深刻影响着人工智能模型的性能提升与场景拓展。本论坛聚焦大模型推理领域的最新研究进展与理论创新，特邀四位领域内专家学者，深入探讨前沿推理技术与底层机理。报告内容涵盖多智能体系统驱动的大模型推理、高效可信的大模型推理、大推理模型RL训练中的人类先验、循环Transformer的机制探索。论坛将从技术与机理双重视角，通过学术交流与经验分享，深化对大模型推理技术的认知，为理论研究与技术突破提供思路。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
+  "google": "https://calendar.google.com/calendar/r/eventedit?dates=20251129T153000%2F20251129T173000&text=%5BMLNLP%202024%5D%20Session%203:大模型推理&details=大模型推理技术的发展，深刻影响着人工智能模型的性能提升与场景拓展。本论坛聚焦大模型推理领域的最新研究进展与理论创新，特邀四位领域内专家学者，深入探讨前沿推理技术与底层机理。报告内容涵盖多智能体系统驱动的大模型推理、高效可信的大模型推理、大推理模型RL训练中的人类先验、循环Transformer的机制探索。论坛将从技术与机理双重视角，通过学术交流与经验分享，深化对大模型推理技术的认知，为理论研究与技术突破提供思路。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
+  "outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2025-11-29T15:30:00&enddt=2025-11-29T17:30:00&subject=%5BMLNLP%202024%5D%20Session%203:大模型推理&body=大模型推理技术的发展，深刻影响着人工智能模型的性能提升与场景拓展。本论坛聚焦大模型推理领域的最新研究进展与理论创新，特邀四位领域内专家学者，深入探讨前沿推理技术与底层机理。报告内容涵盖多智能体系统驱动的大模型推理、高效可信的大模型推理、大推理模型RL训练中的人类先验、循环Transformer的机制探索。论坛将从技术与机理双重视角，通过学术交流与经验分享，深化对大模型推理技术的认知，为理论研究与技术突破提供思路。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
+  "session_slido_url": "https://app.sli.do/event/itYr7hVSrjdjSihjjgepnS",
+  "session_list": [
+    {
+      "time": [
+        "15:30",
+        "16:00"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/qinchengwei.jpg",
+        "name": "秦成伟",
+        "desc": "香港科技大学（广州）人工智能学域助理教授",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "多智能体系统驱动的大模型推理",
+      "slides": "",
+      "recoding": "",
+      "desc": "随着LLM能力的不断增强，我们正在逐渐经历从独立模型的推理到智能体系统的范式转变。这一变化不仅反映在模型规模的提升上，更体现在推理方式的变化：从单模型内部的静态推理，转向多个模型或模块之间的动态协同。本次报告将围绕“从独立模型到智能体系统”这一主题，结合一些最新的研究进展以及组内的相关成果，希望能为大家带来一些新的启发与思考。"
+    },
+    {
+      "time": [
+        "16:00",
+        "16:30"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/chenkehai.jpg",
+        "name": "陈科海",
+        "desc": "哈尔滨工业大学（深圳）计算机学院/计算与智能研究院教授，博士生导师",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "高效可信的大模型推理",
+      "slides": "",
+      "recoding": "",
+      "desc": "随着大规模预训练模型的快速发展，推理能力已成为衡量模型智能水平的核心指标。然而，现有模型在复杂逻辑推理、知识整合、可解释性与安全鲁棒性方面仍存在不足。本次报告将围绕“高性能、可信与安全的大模型推理”这一主题，从推理能力拓展、可信可解释推理以及安全鲁棒推理这三方面介绍课题组的相关研究成果，旨在为大模型的高效可信推理提供了新的技术路径与前言方法。"
+    },
+    {
+      "time": [
+        "16:30",
+        "17:00"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/liudongrui.jpg",
+        "name": "刘东瑞",
+        "desc": "上海人工智能实验室可信安全中心青年科学家",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "重新审视大推理模型RL训练中的人类先验",
+      "slides": "",
+      "recoding": "",
+      "desc": "在人工智能迈向通用智能的征途中，大型推理模型（Large Reasoning Models, LRMs）正以前所未有的速度突破人类在复杂任务上的认知边界。从DeepSeek-R1到OpenAI o1，再到Gemini 2.5 Pro，这些顶尖模型的核心驱动力之一，正是RLVR（Reinforcement Learning with Verifiable Rewards）。RLVR通过在数学、逻辑等具有明确对错标准的任务中，利用验证器提供的奖励信号，引导模型进行多步反思与自我修正，从而显著提升其推理能力。然而，一个关键挑战始终存在：如何将人类对“优质推理”的直觉性先验知识，既自然又鲁棒地融入 RLVR 训练中？ 本次报告将分享团队在RL训练中引的人类先验的探索和最新研究成果。"
+    },
+    {
+      "time": [
+        "17:00",
+        "17:30"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/tengjiaye.jpg",
+        "name": "滕佳烨",
+        "desc": "上海财经大学统计与数据科学学院助理教授",
+        "url": "http://www.tengjiaye.com"
+      },
+      "type": "专题报告",
+      "title": "What Makes Looped Transformers Perform Better Than Non-Recursive Ones (Provably)",
+      "slides": "",
+      "recoding": "",
+      "desc": "While looped transformers (termed as Looped-Attn) often outperform standard transformers (termed as Single-Attn) on complex reasoning tasks, the theoretical basis for this advantage remains underexplored. In this paper, we explain this phenomenon through the lens of loss landscape geometry, inspired by empirical observations of their distinct dynamics at both sample and Hessian levels. To formalize this, we extend the River-Valley landscape model by distinguishing between U-shaped valleys (flat) and V-shaped valleys (steep). Based on empirical observations, we conjecture that the recursive architecture of Looped-Attn induces a landscape-level inductive bias towards River-V-Valley. Theoretical derivations based on this inductive bias guarantee a better loss convergence along the river due to valley hopping, and further encourage learning about complex patterns compared to the River-U-Valley induced by Single-Attn. Building on this insight, we propose SHIFT (Staged HIerarchical Framework for Progressive Training), a staged training framework that accelerates the training process of Looped-Attn while achieving comparable performances."
+    }
+  ]
+}

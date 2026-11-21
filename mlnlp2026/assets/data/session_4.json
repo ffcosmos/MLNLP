@@ -1,0 +1,95 @@
+{
+  "session_name": "特别Session：学生研讨会 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 19:00-21:00) </span>",
+  "session_chair": "论坛主席：张绍磊 (中国人民大学)  &nbsp;&nbsp;&nbsp;&nbsp; 涂耿 (哈尔滨工业大学（深圳）)",
+  "session_chairs": [
+    {
+      "name": "张绍磊",
+      "affiliation": "中国人民大学",
+      "img": "assets/img/committee/zhangshaolei.png"
+    },
+    {
+      "name": "涂耿",
+      "affiliation": "哈尔滨工业大学（深圳）",
+      "img": "assets/img/committee/tugeng.png"
+    }
+  ],
+  "session_desc": "科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。",
+  "session_time": [
+    "19:00",
+    "21:00"
+  ],
+  "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20251129T153000%0ADTEND;TZID=Asia/Shanghai:20251129T173000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202024%5D%20特别Session%20:学生研讨会%0ADESCRIPTION:科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
+  "google": "https://calendar.google.com/calendar/r/eventedit?dates=20251129T190000%2F20251129T210000&text=%5BMLNLP%202024%5D%20特别Session%20:学生研讨会&details=科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
+  "outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2025-11-29T19:00:00&enddt=2025-11-29T21:00:00&subject=%5BMLNLP%202024%5D%20特别Session%20:学生研讨会&body=科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
+  "session_slido_url": "https://app.sli.do/event/itYr7hVSrjdjSihjjgepnS",
+  "session_list": [
+    {
+      "time": [
+        "19:00",
+        "19:30"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/guoshoutao.png",
+        "name": "郭守涛",
+        "desc": "中国科学院计算所博士生",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "从个人视角看待科研切入点",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    },
+    {
+      "time": [
+        "19:30",
+        "20:00"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/fanmeihao.jpeg",
+        "name": "范梅浩",
+        "desc": "中国人民大学博士生",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "从单打独斗到合作共赢：研究生如何构建科研社交网络",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    },
+    {
+      "time": [
+        "20:00",
+        "20:30"
+      ],
+      "speaker": {
+        "img": "assets/img/committee/chenqiguang.png",
+        "name": "陈麒光",
+        "desc": "哈尔滨工业大学博士生",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "科研绘图经验分享",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    },
+    {
+      "time": [
+        "20:30",
+        "21:00"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/qiaoshuofei.jpeg",
+        "name": "乔硕斐",
+        "desc": "浙江大学博士生",
+        "url": "https://gooodte.github.io/"
+      },
+      "type": "专题报告",
+      "title": "大模型时代如何做有特色的科研：以大模型智能体为例",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    }
+  ]
+}
