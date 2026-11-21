@@ -1,95 +1,95 @@
 {
-  "session_name": "Session 2: 大模型安全 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 13:00-15:00) </span>",
-  "session_chair": "论坛主席：董胤蓬 (清华大学) &nbsp;&nbsp;&nbsp;&nbsp; 翟胜方 (新加坡国立大学)",
-  "session_chairs": [
-    {
-      "name": "董胤蓬",
-      "affiliation": "清华大学",
-      "img": "assets/img/committee/dongyinpeng.png"
-    },
-    {
-      "name": "翟胜方",
-      "affiliation": "新加坡国立大学",
-      "img": "assets/img/committee/zhaishengfang.png"
-    }
-  ],
-  "session_desc": "本次论坛将聚焦大模型安全领域的最新研究与应用，邀请来自国内外学术界与工业界的四位专家学者，探讨多模态与语言大模型在安全、可信及风险防控方面的研究进展与实践经验。报告内容涵盖多模态生成模型的内生与衍生安全、大语言模型的红队测试与风险评估、对抗与越狱攻击的系统分析，以及模型治理与协同安全的新方法。论坛将通过多角度的学术交流与经验分享，促进对大模型安全问题的深入理解，推动人工智能安全与可信研究的持续发展。",
-  "session_time": [
-    "13:30",
-    "15:30"
-  ],
-  "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20251129T133000%0ADTEND;TZID=Asia/Shanghai:20251129T150000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202024%5D%20Session%202:大模型安全%0ADESCRIPTION:本次论坛将聚焦大模型安全领域的最新研究与应用，邀请来自国内外学术界与工业界的四位专家学者，探讨多模态与语言大模型在安全、可信及风险防控方面的研究进展与实践经验。报告内容涵盖多模态生成模型的内生与衍生安全、大语言模型的红队测试与风险评估、对抗与越狱攻击的系统分析，以及模型治理与协同安全的新方法。论坛将通过多角度的学术交流与经验分享，促进对大模型安全问题的深入理解，推动人工智能安全与可信研究的持续发展。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
-  "google": "https://calendar.google.com/calendar/r/eventedit?dates=20251129T130000%2F20251129T150000&text=%5BMLNLP%202024%5D%20Session%202:大模型安全&details=本次论坛将聚焦大模型安全领域的最新研究与应用，邀请来自国内外学术界与工业界的四位专家学者，探讨多模态与语言大模型在安全、可信及风险防控方面的研究进展与实践经验。报告内容涵盖多模态生成模型的内生与衍生安全、大语言模型的红队测试与风险评估、对抗与越狱攻击的系统分析，以及模型治理与协同安全的新方法。论坛将通过多角度的学术交流与经验分享，促进对大模型安全问题的深入理解，推动人工智能安全与可信研究的持续发展。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
-  "outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2025-11-29T13:00:00&enddt=2025-11-29T15:00:00&subject=%5BMLNLP%202024%5D%20Session%202:大模型安全&body=本次论坛将聚焦大模型安全领域的最新研究与应用，邀请来自国内外学术界与工业界的四位专家学者，探讨多模态与语言大模型在安全、可信及风险防控方面的研究进展与实践经验。报告内容涵盖多模态生成模型的内生与衍生安全、大语言模型的红队测试与风险评估、对抗与越狱攻击的系统分析，以及模型治理与协同安全的新方法。论坛将通过多角度的学术交流与经验分享，促进对大模型安全问题的深入理解，推动人工智能安全与可信研究的持续发展。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
-  "session_slido_url": "https://app.sli.do/event/9gt2fRq9C6APVkhuGpaSik",
-  "session_list": [
-    {
-      "time": [
-        "13:00",
-        "13:30"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/baoshilong.jpg",
-        "name": "包世龙",
-        "desc": "中国科学院大学博士后/特别研究助理",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "迈向稳健可信的多模态生成模型：内生与衍生安全的双维度推进",
-      "slides": "",
-      "recoding": "",
-      "desc": "Generative AI is reshaping digital creation, but its potential for harmful generation remains a bottleneck to real-world deployment. This talk reports our early efforts toward harmless generation along three strands: (i) avoiding harmful content via targeted model unlearning; (ii) mitigating generation bias with lightweight fair interventions; and (iii) exposing backdoor vulnerabilities to inform robust defenses. Across empirical studies, these directions preserve utility while showing encouraging effectiveness, pointing to promising avenues for future work."
-    },
-    {
-      "time": [
-        "13:30",
-        "14:00"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/cuishiyao.jpg",
-        "name": "崔诗尧",
-        "desc": "清华大学CoAI课题组博士后",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "大语言模型的红队测试与前沿风险评估",
-      "slides": "",
-      "recoding": "",
-      "desc": "大型语言模型（LLMs）的广泛应用引发了对其安全性的高度关注。尽管已有多种攻击手段揭示了模型的潜在脆弱性，但针对不同模型中攻击成因的机理仍缺乏系统性研究，难以有效支撑防御机制的构建。深入探讨攻击的可解释性及其跨模型迁移性，是揭示脆弱性根源与厘清风险边界的关键路径。与此同时，模型能力不断增强、应用环境日益复杂，促使新型风险持续涌现，亟需构建科学、可量化的安全评估框架与度量方法。本报告围绕攻击的可解释性与迁移性展开系统分析，并提出面向新兴风险的评估体系与方法，旨在为大模型的安全防护与风险治理提供理论支撑与方法依据。"
-    },
-    {
-      "time": [
-        "14:00",
-        "14:30"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/jiaxiaojun.jpg",
-        "name": "加小俊",
-        "desc": "Research Fellow at Nanyang Technological University (NTU)",
-        "url": "https://jiaxiaojunqaq.github.io/"
-      },
-      "type": "专题报告",
-      "title": "The Dual Threats of Multimodal Large Models: An In-Depth Exploration from Adversarial to Jailbreak Attacks",
-      "slides": "",
-      "recoding": "",
-      "desc": "As multimodal large language models (MLLMs) rapidly evolve, their integration of vision and language introduces new and complex security vulnerabilities. This presentation provides a comprehensive overview of recent advances in understanding and mitigating the dual threats that challenge the safety of large models—adversarial manipulation and jailbreak prompting. We systematically analyze how subtle input perturbations and semantic prompt manipulations can compromise model alignment, expose unsafe behaviors, and undermine trust in generative systems. Through extensive empirical evaluation across both open-source and closed-source models, we demonstrate the fragility of current safety mechanisms and the limitations of existing defenses. Our findings highlight fundamental patterns shared across modalities and model architectures, offering new insights into transferable attack dynamics and the urgent need for unified safety benchmarks."
-    },
-    {
-      "time": [
-        "14:30",
-        "15:00"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/duanranjie.jpg",
-        "name": "段然杰",
-        "desc": "清华大学与阿里巴巴集团联合培养博士后",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "AGI的成年之路：安全、可信与未来共生",
-      "slides": "",
-      "recoding": "",
-      "desc": "随着大型语言模型不断提升智能水平，我们该如何确保它始终沿着“向善”的航道前行？通用人工智能（AGI）的崛起，标志着一个智能新时代的到来，同时也对我们如何确保其安全、可信并实现未来共生提出了前所未有的挑战。本报告站在阿里巴巴AI安全的前沿实践，提出了“AI安全海洋生态”的概念—— “AI是承载文明发展的陆地，AI安全则是定义其边界的海洋”。我们不再局限于单一的防御技术，而是从一个更宏观、更具生命力的角度，深入研究构成AI安全防线的关键组成部分。报告详细阐述了借鉴海洋生物特性的核心组件：牡蛎（Oysters）如何实现输入到输出的价值对齐；贝壳（Shells）如何提供基础、轻量级的防护；海带（Kelp）如何进行内容过滤与行为引导；章鱼（Octopus）如何通过多维度探测发现潜在风险；鲨鱼（Sharks）如何模拟攻击以测试模型鲁棒性；以及水母（Jellyfish）如何实现模型的可解释性洞察。这些组件协同作用，共同构建了一个自净化、自适应、自修复的智能安全防护体系。本报告旨在为构建一个开放、协同、可持续的大模型安全治理体系提供深刻的方法论支撑和前沿的实践范式，启发AI安全治理从“被动响应”走向“主动生态共治”，为AGI的健康发展奠定安全可信的基石。"
-    }
-  ]
+	"session_name": "Session 2: 语音大模型 <span style=\"white-space: pre;word-break: break-word;\"> (12月26日 13:00-15:00) </span>",
+	"session_chair": "论坛主席：刘瑞 (内蒙古大学) &nbsp;&nbsp;&nbsp;&nbsp; 刘李 (香港科技大学（广州）)",
+	"session_chairs": [
+		{
+			"name": "刘瑞",
+			"affiliation": "内蒙古大学",
+			"img": "assets/img/committee/liurui.jpg"
+		},
+		{
+			"name": "刘李",
+			"affiliation": "香港科技大学（广州）",
+			"img": "assets/img/committee/liuli.png"
+		}
+	],
+	"session_desc": "大模型正推动语音交互从“识别—理解—合成”的级联流水线，走向端到端、低时延、可感知情感的全双工对话。本论坛聚焦这一跃迁中的共性难题：高质量语音数据稀缺、训练与部署成本高、共情表达不足、评测标准尚不统一，邀请来自头部科技企业与高校的嘉宾分别探讨语音交互大模型的云上训练与体验优化、大模型驱动的对话语音合成与共情响应、多方言多语种数据建设与评测基准、全双工交互中的打断处理与情感对齐。",
+	"session_time": [
+		"13:00",
+		"15:00"
+	],
+	"apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20261226T130000%0ADTEND;TZID=Asia/Shanghai:20261226T150000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202026%5D%20Session%202:语音大模型%0ADESCRIPTION:大模型正推动语音交互从“识别—理解—合成”的级联流水线，走向端到端、低时延、可感知情感的全双工对话。本论坛聚焦这一跃迁中的共性难题：高质量语音数据稀缺、训练与部署成本高、共情表达不足、评测标准尚不统一，邀请来自头部科技企业与高校的嘉宾分别探讨语音交互大模型的云上训练与体验优化、大模型驱动的对话语音合成与共情响应、多方言多语种数据建设与评测基准、全双工交互中的打断处理与情感对齐。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
+	"google": "https://calendar.google.com/calendar/r/eventedit?dates=20261226T130000%2F20261226T150000&text=%5BMLNLP%202026%5D%20Session%202:语音大模型&details=大模型正推动语音交互从“识别—理解—合成”的级联流水线，走向端到端、低时延、可感知情感的全双工对话。本论坛聚焦这一跃迁中的共性难题：高质量语音数据稀缺、训练与部署成本高、共情表达不足、评测标准尚不统一，邀请来自头部科技企业与高校的嘉宾分别探讨语音交互大模型的云上训练与体验优化、大模型驱动的对话语音合成与共情响应、多方言多语种数据建设与评测基准、全双工交互中的打断处理与情感对齐。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
+	"outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2026-12-26T13:00:00&enddt=2026-12-26T15:00:00&subject=%5BMLNLP%202026%5D%20Session%202:语音大模型&body=大模型正推动语音交互从“识别—理解—合成”的级联流水线，走向端到端、低时延、可感知情感的全双工对话。本论坛聚焦这一跃迁中的共性难题：高质量语音数据稀缺、训练与部署成本高、共情表达不足、评测标准尚不统一，邀请来自头部科技企业与高校的嘉宾分别探讨语音交互大模型的云上训练与体验优化、大模型驱动的对话语音合成与共情响应、多方言多语种数据建设与评测基准、全双工交互中的打断处理与情感对齐。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
+	"session_slido_url": "",
+	"session_list": [
+		{
+			"time": [
+				"13:00",
+				"13:30"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/jiangziyue.jpg",
+				"name": "江子越",
+				"desc": "阿里巴巴 Token Foundry 算法研究员",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "语音交互大模型后训练体验优化",
+			"slides": "",
+			"recoding": "",
+			"desc": "报告围绕语音交互大模型的后训练与体验优化展开，面向 QwenOmni Talker 模块，构建指令生效判别、副语言识别、语境情绪强度识别等专用模型，补齐语音交互中语境信息感知、非语言信息感知与判别能力，提升语音对话交互自然度。相关工作为端到端语音交互大模型的用户体验迭代提供了一套可落地的后训练与评测优化方案。"
+		},
+		{
+			"time": [
+				"13:30",
+				"14:00"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/huyifan.jpg",
+				"name": "胡一帆",
+				"desc": "内蒙古大学计算机学院研究员",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "大语言模型驱动的对话语音合成共情建模方法研究",
+			"slides": "",
+			"recoding": "",
+			"desc": "真实对话中的语音表达随上下文变化。同一句话，在安慰、建议或回应质疑时，语气、停顿和表情都可能不同。本报告围绕“上下文建模—共情推理—视听协同”介绍三项研究：构建大规模自然对话语料，将历史文本和语音统一为离散词元，利用大语言模型生成符合语境的语音；以自然语言共情描述连接情感推断、语义规划与声学渲染，使表达依据可观察、可控制；引入面部表情词元与视听对齐机制，联合生成语音和面部动画。实验表明，相关方法改善了多轮上下文利用、情感表达控制和视听响应的一致性。"
+		},
+		{
+			"time": [
+				"14:00",
+				"14:30"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/lijie.png",
+				"name": "李杰",
+				"desc": "中电信人工智能科技（北京）有限公司高级总监",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "从数据到服务：星辰语音大模型面向真实语音场景的研发与落地实践",
+			"slides": "",
+			"recoding": "",
+			"desc": "真实语音远比标准任务复杂：口语冗余、方言口音、副语言事件、噪声混响与远场输入，都会让实验室指标失真。本报告按“数据—模型—评测—服务”四段，介绍星辰语音大模型（Xing-Audio）的技术体系：管线支撑百万小时级加工与质量筛选，发布中英文与十类方言大区资源；以 TELEVAL、GSR-Bench 等基准，把评价从字面准确率推进到交互适当性与生成可靠性；并在多方言识别、副语言检测、生成式语音修复与目标说话人提取、TTS 拟人度评价等方向开放专用模型；相关能力经流式与非流式ASR、可控TTS接口进入业务现场。报告亦讨论方言泛化、副语言覆盖与生成幻觉等边界，与产学研同行共商下一步。"
+		},
+		{
+			"time": [
+				"14:30",
+				"15:00"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/liyunxin.png",
+				"name": "李云鑫",
+				"desc": "哈尔滨工业大学（深圳）计算机科学与技术学院副教授、博士生导师",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "全模态全双工语音交互大模型",
+			"slides": "",
+			"recoding": "",
+			"desc": "本报告聚焦全模态全双工语音交互大模型，梳理团队在全模态基座构建与全双工交互机制两条主线的研究进展。在基座模型方向，针对视觉、语言表征异构与跨模态对齐难题，率先提出视觉增强大语言模型范式，研发语言智能原生的 Uni-MoE 系列全模态大模型；模型能力从统一多模态理解、语音及音乐生成，迭代升级为理解与生成一体化的全模态交互系统。在全双工交互方向，针对传统级联方案时延较高、端到端声学重建与语义推理存在梯度冲突等瓶颈，提出层级化语义 - 声学解耦范式，通过参数解耦与帧级语义对齐，实现原生端到端全双工对话，打断响应能力提升 28.5%，相关成果获评 ACL 2026 杰出论文。报告最后展望面向实体智能的 “边听、边看、边说、边思考、边行动” 的下一代全模态全双工大模型发展方向。"
+		}
+	]
 }
