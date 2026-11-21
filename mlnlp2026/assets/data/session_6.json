@@ -1,95 +1,95 @@
 {
-  "session_name": "Session 5: 大模型记忆 <span style=\"white-space: pre;word-break: break-word;\"> (11月30日 13:00-15:00) </span>",
-  "session_chair": "论坛主席：张宁豫 (浙江大学) &nbsp;&nbsp;&nbsp;&nbsp; 庞亮 (中国科学院计算技术研究所)",
-  "session_chairs": [
-    {
-      "name": "张宁豫",
-      "affiliation": "浙江大学",
-      "img": "assets/img/committee/zhangningyu.jpeg"
-    },
-    {
-      "name": "庞亮",
-      "affiliation": "中国科学院计算技术研究所",
-      "img": "assets/img/committee/pangliang.png"
-    }
-  ],
-  "session_desc": "本次论坛聚焦于大模型（智能体）在记忆机制与知识更新能力方面的前沿研究与工程实践，来自学术界和产业界的四位学者将探讨大模型智能体记忆机制、方法与应用。通过思想碰撞，论坛旨在促进对大模型（智能体）记忆的深入理解和应用，为构建具备持续学习能力、长期记忆与自我进化的人工智能贡献力量。",
-  "session_time": [
-    "13:00",
-    "15:00"
-  ],
-  "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20251130T130000%0ADTEND;TZID=Asia/Shanghai:20251130T150000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202025%5D%20Session%205%20大模型记忆%0ADESCRIPTION:本次论坛聚焦于大模型（智能体）在记忆机制与知识更新能力方面的前沿研究与工程实践，来自学术界和产业界的四位学者将探讨大模型智能体记忆机制、方法与应用。通过思想碰撞，论坛旨在促进对大模型（智能体）记忆的深入理解和应用，为构建具备持续学习能力、长期记忆与自我进化的人工智能贡献力量。 %0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
-  "google": "https://calendar.google.com/calendar/r/eventedit?dates=20251130T130000%2F20251130T150000&text=%5BMLNLP%202025%5D%20Session%205%20大模型记忆&details=本次论坛聚焦于大模型（智能体）在记忆机制与知识更新能力方面的前沿研究与工程实践，来自学术界和产业界的四位学者将探讨大模型智能体记忆机制、方法与应用。通过思想碰撞，论坛旨在促进对大模型（智能体）记忆的深入理解和应用，为构建具备持续学习能力、长期记忆与自我进化的人工智能贡献力量。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
-  "outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2025-11-30T13:00:00&enddt=2025-11-30T15:00:00&subject=%5BMLNLP%202025%5D%20Session%205%20大模型记忆&body=本次论坛聚焦于大模型（智能体）在记忆机制与知识更新能力方面的前沿研究与工程实践，来自学术界和产业界的四位学者将探讨大模型智能体记忆机制、方法与应用。通过思想碰撞，论坛旨在促进对大模型（智能体）记忆的深入理解和应用，为构建具备持续学习能力、长期记忆与自我进化的人工智能贡献力量。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
-  "session_slido_url": "",
-  "session_list": [
-    {
-      "time": [
-        "13:00",
-        "13:30"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/chenxu.png",
-        "name": "陈旭",
-        "desc": "中国人民大学高瓴人工智能学院预聘副教授，博士生导师",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "大模型智能体记忆机制及其应用",
-      "slides": "",
-      "recoding": "",
-      "desc": "随着大语言模型（LLM）的快速发展，基于大模型的智能体（AI Agents）在社会模拟、人机交互与自动决策等任务中展现出广阔潜力。智能体的核心挑战之一在于如何实现 长期、动态且可控的记忆机制，以支持其在复杂环境中的连续推理与适应能力。本报告聚焦大模型智能体的个性化记忆机制及其在社会模拟中的应用。通过引入短期、长期与情境记忆的结合，智能体能够在复杂交互中保持连续性与个体差异，支持更真实的人类行为建模。我们展示了记忆机制在群体协作、社会行为演化及治理实验平台中的应用，验证其在提升智能体一致性、个性化响应与社会模拟可信度方面的价值。"
-    },
-    {
-      "time": [
-        "13:30",
-        "14:00"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/zhouhao.png",
-        "name": "周浩",
-        "desc": "清华大学智能产业研究院副研究员",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "MemAgent: Reshaping Long-Context LLM with Multi-Conv RL based Memory Agent",
-      "slides": "",
-      "recoding": "",
-      "desc": "Despite improvements by length extrapolation, efficient attention and memory modules, handling infinitely long documents with linear complexity without performance degradation during extrapolation remains the ultimate challenge in long-text processing. We directly optimize for long-text tasks in an end-to-end fashion and introduce a novel agent workflow, MemAgent, which reads text in segments and updates the memory using an overwrite strategy. We extend the DAPO algorithm to facilitate training via independent-context multi-conversation generation. MemAgent has demonstrated superb long-context capabilities, being able to extrapolate from an 8K context trained on 32K text to a 3.5M QA task with performance loss < 5% and achieves 95%+ in 512K RULER test."
-    },
-    {
-      "time": [
-        "14:00",
-        "14:30"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/tangbo.png",
-        "name": "唐波",
-        "desc": "记忆张量（上海）科技有限公司应用算法负责人",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "智能始于记忆：打造基于MemOS的记忆管理新范式",
-      "slides": "",
-      "recoding": "",
-      "desc": "智能时代，记忆为先。MemOS以创新分层架构与主动记忆机制，颠覆传统大模型的局限，实现跨任务、跨场景的连续理解与个性化交互。它不仅重塑AI的认知边界，更引领智能应用迈向高效、精准、可进化的新纪元。"
-    },
-    {
-      "time": [
-        "14:30",
-        "15:00"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/baiting.png",
-        "name": "白婷",
-        "desc": "北京邮电大学计算机学院（国家示范性软件学院）副教授",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "经验记忆赋能大模型高效深度思考",
-      "slides": "",
-      "recoding": "",
-      "desc": "在大模型提升知识搜索和推理能力并支撑长期个性化对话的场景中，需实现检索推理精准高效与交互记忆持久连贯的统一。现有方案难以兼顾这一需求：一方面，依赖强化学习（RL）的深度思考模型，因缺乏推理记忆能力，不仅对无需外部辅助的查询冗余调用工具、干扰生成效率，还会因缺乏记忆指导进一步降低推理性能；另一方面，长期对话中，大模型受固定上下文窗口限制，易出现记忆断裂、事实不一致；且现有记忆提升方式缺乏统一管理架构，无法与深度推理能力协同，最终导致推理效率与记忆质量难以两全。我们构建首个记忆操作系统 MemoryOS，通过短期 - 中期 - 长期分层存储架构及四大记忆管理功能模块，实现全链路记忆管控。进一步提出经验记忆增强的 RL 深度思考框架，融入效率奖励与可复用经验记忆，在保障深度搜索质量的同时避免长对话记忆断裂，最终为大模型构建一套兼顾知识推理效率与个性化交互记忆的完整技术实践路径。"
-    }
-  ]
+	"session_name": "Session 5: 多语言大模型 <span style=\"white-space: pre;word-break: break-word;\"> (12月27日 13:00-15:00) </span>",
+	"session_chair": "论坛主席：黄锴宇 (北京交通大学) &nbsp;&nbsp;&nbsp;&nbsp; 王硕 (清华大学)",
+	"session_chairs": [
+		{
+			"name": "黄锴宇",
+			"affiliation": "北京交通大学",
+			"img": "assets/img/huangkaiyu.jpg"
+		},
+		{
+			"name": "王硕",
+			"affiliation": "清华大学",
+			"img": "assets/img/wangshuo.jpg"
+		}
+	],
+	"session_desc": "本次论坛将聚焦于多语言大模型的前沿研究与实际应用。四位来自学术界与工业界的顶尖专家将围绕多语言智能的核心议题展开深入探讨：从大模型在多语言场景下的安全隐患，到多语言智能体的评测与挑战；从基于强化学习的多语言大模型推理研究，到自下而上构建可验证的高难度翻译测试集。论坛还将梳理多语言大模型的发展脉络，剖析其在翻译、推理、安全和智能体方面的关键技术突破，并展望其在多语言前沿智能体等领域的广阔前景。通过本次交流，论坛旨在推动多语言大模型的理论创新与产业应用，助力迈向更加语言公平与通用智能的未来。",
+	"session_time": [
+		"13:00",
+		"15:00"
+	],
+	"apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20261227T130000%0ADTEND;TZID=Asia/Shanghai:20261227T150000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202026%5D%20Session%205:多语言大模型%0ADESCRIPTION:本次论坛将聚焦于多语言大模型的前沿研究与实际应用。四位来自学术界与工业界的顶尖专家将围绕多语言智能的核心议题展开深入探讨：从大模型在多语言场景下的安全隐患，到多语言智能体的评测与挑战；从基于强化学习的多语言大模型推理研究，到自下而上构建可验证的高难度翻译测试集。论坛还将梳理多语言大模型的发展脉络，剖析其在翻译、推理、安全和智能体方面的关键技术突破，并展望其在多语言前沿智能体等领域的广阔前景。通过本次交流，论坛旨在推动多语言大模型的理论创新与产业应用，助力迈向更加语言公平与通用智能的未来。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2026/%0AEND:VEVENT%0AEND:VCALENDAR",
+	"google": "https://calendar.google.com/calendar/r/eventedit?dates=20261227T130000%2F20261227T150000&text=%5BMLNLP%202026%5D%20Session%205:多语言大模型&details=本次论坛将聚焦于多语言大模型的前沿研究与实际应用。四位来自学术界与工业界的顶尖专家将围绕多语言智能的核心议题展开深入探讨：从大模型在多语言场景下的安全隐患，到多语言智能体的评测与挑战；从基于强化学习的多语言大模型推理研究，到自下而上构建可验证的高难度翻译测试集。论坛还将梳理多语言大模型的发展脉络，剖析其在翻译、推理、安全和智能体方面的关键技术突破，并展望其在多语言前沿智能体等领域的广阔前景。通过本次交流，论坛旨在推动多语言大模型的理论创新与产业应用，助力迈向更加语言公平与通用智能的未来。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2026/",
+	"outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2026-12-27T13:00:00&enddt=2026-12-27T15:00:00&subject=%5BMLNLP%202026%5D%20Session%205:多语言大模型&body=本次论坛将聚焦于多语言大模型的前沿研究与实际应用。四位来自学术界与工业界的顶尖专家将围绕多语言智能的核心议题展开深入探讨：从大模型在多语言场景下的安全隐患，到多语言智能体的评测与挑战；从基于强化学习的多语言大模型推理研究，到自下而上构建可验证的高难度翻译测试集。论坛还将梳理多语言大模型的发展脉络，剖析其在翻译、推理、安全和智能体方面的关键技术突破，并展望其在多语言前沿智能体等领域的广阔前景。通过本次交流，论坛旨在推动多语言大模型的理论创新与产业应用，助力迈向更加语言公平与通用智能的未来。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2026/",
+	"session_slido_url": "",
+	"session_list": [
+		{
+			"time": [
+				"13:00",
+				"13:30"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/wangwenxuan.png",
+				"name": "王文轩",
+				"desc": "中国人民大学信息学院讲师",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "大模型在多语言场景下的安全隐患",
+			"slides": "",
+			"recoding": "",
+			"desc": "大语言模型的用户来自世界各地，用着各自不同的语言与大语言模型交流。为此，大模型的开发者们会使用多语言数据训练大模型，以增强大模型多语言能力。然而，受限于语料库和对齐数据资源的限制，训练数据在语言之间往往是不平衡的，比方说英文数据多，其他语言的数据少。这将会导致模型在多语言使用场景中存在一些安全隐患。讲者发现，一方面高资源语料的知识向低资源语言迁移能力不足，造成低资源语言上的安全性不足；另一方面，部分领域的知识盲目的从高资源语言向低资源语言迁移，造成了语言之间文化入侵的问题。本报告重点介绍了讲者在多语言场景下的安全问题，从语言间安全对齐差异和跨语言文化入侵两个角度讨论了其在大模型在多语言场景上的思考。"
+		},
+		{
+			"time": [
+				"13:30",
+				"14:00"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/wuminghao.jpg",
+				"name": "吴明昊",
+				"desc": "阿里巴巴 Qwen 多语言团队算法科学家",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "从语言能力到任务交付：多语言智能体的评测与挑战",
+			"slides": "",
+			"recoding": "",
+			"desc": "随着大语言模型从文本生成走向工具调用与多步任务执行，流畅的语言表达是否意味着可靠的任务完成能力，成为多语言人工智能研究的重要问题。本报告围绕这一问题，介绍跨语言任务执行、开放网络检索与专业翻译工作流三个方向的研究与探索。首先，结合 BabelFlow 与 BabelArena，介绍如何在保持任务语义与执行约束的前提下构建多语言评测，并分析不同语言在任务成功率、工具使用、语言一致性及资源开销上的差异。其次，通过 HyperBrowseComp，探讨智能体在多语言开放网络中发现、整合和核验多模态证据的能力边界，以及模型与检索工具协同带来的挑战。最后，结合 MT-Marathon 的初步探索，讨论如何将机器翻译评测从句段级译文质量拓展到完整的专业任务交付，关注术语与事实一致性、跨文件约束及交付物的实际可用性。报告将以这些工作为基础，思考如何建立兼顾语言质量、执行可靠性与效率的评测体系，推动多语言智能体从“生成正确文本”走向“可靠完成任务”。"
+		},
+		{
+			"time": [
+				"14:00",
+				"14:30"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/manzhibo.png",
+				"name": "满志博",
+				"desc": "芬兰ELLIS研究院与图尔库大学博士后研究员",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "基于强化学习的多语言大模型推理研究",
+			"slides": "",
+			"recoding": "",
+			"desc": "近年来，强化学习在提升大语言模型推理能力方面取得了显著进展，但如何将这一能力有效拓展至多语言场景仍面临诸多挑战。本报告首先介绍多语言大模型推理的研究现状，重点分析现有强化学习方法在跨语言知识迁移、奖励信号稀疏及训练效率等方面的挑战。随后，介绍一种结合跨语言推理提示与参数轨迹外推的高效强化学习方法，通过短阶段的提示辅助训练与参数外推，在降低计算成本的同时提升多语言推理能力。最后，对多语言大模型推理的未来发展方向进行展望。"
+		},
+		{
+			"time": [
+				"14:30",
+				"15:00"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/chenpinzhen.png",
+				"name": "陈品桢",
+				"desc": "英国贝尔法斯特女王大学讲师",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "自下而上构建可验证的高难度翻译测试集",
+			"slides": "",
+			"recoding": "",
+			"desc": "随着大语言模型不断刷新翻译成绩，传统测试集趋于饱和且存在数据污染风险，难以揭示先进模型的能力边界与缺陷。然而，如何判断和构造真正具有挑战性的样例，同时确保结果可靠、可解释、可复现？本报告介绍“最后翻译基准”（Last Translation Benchmark，LTB），一种从语言使用者的角度出发，自下而上构建高难度测评的方法：由社区贡献者发现难点并设计针对性的验证规则以“难倒”模型，再利用多维度人工复评验证样例的质量。除了描述基准的构建过程和实验结果，本报告旨在突出其中的科学思考：如何定义和量化测试集的难度，如何自动评估半开放性任务，以及如何在控制成本的同时鼓励高质量案例和防范投机行为。此外，报告还基于所提出的评估方法，剖析当前模型在隐喻理解、文化指涉、元推理和多模态融合等方面的缺陷。这些方法论不仅服务于机器翻译，也为构建可持续的评测体系提供重要参考。"
+		}
+	]
 }

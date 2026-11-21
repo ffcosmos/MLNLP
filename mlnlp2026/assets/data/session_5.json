@@ -1,95 +1,95 @@
 {
-  "session_name": "Session 4: 大模型智能体 <span style=\"white-space: pre;word-break: break-word;\"> (11月30日 09:00-11:00) </span>",
-  "session_chair": "论坛主席：钱忱 (上海交通大学) &nbsp;&nbsp;&nbsp;&nbsp; 从鑫 (清华大学)",
-  "session_chairs": [
-    {
-      "name": "钱忱",
-      "affiliation": "上海交通大学",
-      "img": "assets/img/committee/qianchen.png"
-    },
-    {
-      "name": "从鑫",
-      "affiliation": "清华大学",
-      "img": "assets/img/committee/congxin.png"
-    }
-  ],
-  "session_desc": "随着人工智能的快速发展，大语言模型（LLM）正从单一的文本生成系统演化为具备感知、推理、决策与行动能力的自主智能体（Agent）。本论坛以“大模型智能体”为主题，聚焦智能体的工具学习、任务执行、多模态交互与社会化协作等前沿方向，探讨如何让大模型从“会说话”走向“会做事”。论坛邀请来自上海交通大学、清华大学、阿里巴巴、电子科技大学等高校与企业的多位知名学者与研究者，围绕大模型工具使用方法与挑战、自主智能体的学习与规划、多端多模态交互智能体设计以及语言模型在复杂社会行为建模中的应用等主题展开深入报告与讨论。论坛旨在促进学术界与产业界的交流合作，推动大模型智能体的理论创新与落地应用，为人工智能的发展注入新动能。",
-  "session_time": [
-    "9:00",
-    "11:00"
-  ],
-  "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20251130T090000%0ADTEND;TZID=Asia/Shanghai:20251130T110000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202025%5D%20Session%204:具身智能%0ADESCRIPTION:随着人工智能的快速发展，大语言模型（LLM）正从单一的文本生成系统演化为具备感知、推理、决策与行动能力的自主智能体（Agent）。本论坛以“大模型智能体”为主题，聚焦智能体的工具学习、任务执行、多模态交互与社会化协作等前沿方向，探讨如何让大模型从“会说话”走向“会做事”。论坛邀请来自上海交通大学、清华大学、阿里巴巴、电子科技大学等高校与企业的多位知名学者与研究者，围绕大模型工具使用方法与挑战、自主智能体的学习与规划、多端多模态交互智能体设计以及语言模型在复杂社会行为建模中的应用等主题展开深入报告与讨论。论坛旨在促进学术界与产业界的交流合作，推动大模型智能体的理论创新与落地应用，为人工智能的发展注入新动能。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
-  "google": "https://calendar.google.com/calendar/r/eventedit?dates=20251130T090000%2F20251130T110000&text=%5BMLNLP%202025%5D%20Session%204:具身智能&details=随着人工智能的快速发展，大语言模型（LLM）正从单一的文本生成系统演化为具备感知、推理、决策与行动能力的自主智能体（Agent）。本论坛以“大模型智能体”为主题，聚焦智能体的工具学习、任务执行、多模态交互与社会化协作等前沿方向，探讨如何让大模型从“会说话”走向“会做事”。论坛邀请来自上海交通大学、清华大学、阿里巴巴、电子科技大学等高校与企业的多位知名学者与研究者，围绕大模型工具使用方法与挑战、自主智能体的学习与规划、多端多模态交互智能体设计以及语言模型在复杂社会行为建模中的应用等主题展开深入报告与讨论。论坛旨在促进学术界与产业界的交流合作，推动大模型智能体的理论创新与落地应用，为人工智能的发展注入新动能。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
-  "outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2025-11-30T09:00:00&enddt=2025-11-30T11:00:00&subject=%5BMLNLP%202025%5D%20Session%204:具身智能&body=随着人工智能的快速发展，大语言模型（LLM）正从单一的文本生成系统演化为具备感知、推理、决策与行动能力的自主智能体（Agent）。本论坛以“大模型智能体”为主题，聚焦智能体的工具学习、任务执行、多模态交互与社会化协作等前沿方向，探讨如何让大模型从“会说话”走向“会做事”。论坛邀请来自上海交通大学、清华大学、阿里巴巴、电子科技大学等高校与企业的多位知名学者与研究者，围绕大模型工具使用方法与挑战、自主智能体的学习与规划、多端多模态交互智能体设计以及语言模型在复杂社会行为建模中的应用等主题展开深入报告与讨论。论坛旨在促进学术界与产业界的交流合作，推动大模型智能体的理论创新与落地应用，为人工智能的发展注入新动能。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
-  "session_slido_url": "",
-  "session_list": [
-    {
-      "time": [
-        "09:00",
-        "09:30"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/liuweiwen.png",
-        "name": "刘卫文",
-        "desc": "上海交通大学计算机学院副教授",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "大模型智能体工具使用：方法、挑战与应用",
-      "slides": "",
-      "recoding": "",
-      "desc": "随着通用人工智能研究的不断推进，大语言模型正逐步从被动的语言生成器演化为主动的问题求解者与任务执行者。在这一转变过程中，大模型工具使用能力被广泛认为是连接语言智能与现实世界交互的关键桥梁。如何引导大模型调用外部工具以完成复杂任务、拓展能力边界，已成为大模型智能体系统的研究前沿。然而，当前大模型智能体在复杂任务场景中仍然面临泛化能力不足、多轮交互端到端执行正确率低等问题。本报告将探讨当前主流大模型智能体模型在真实应用场景面临的挑战，并重点分享大模型的工具调用能力的系统性构建方法，涵盖数据合成、后训练以及多轮迭代演进等关键技术路径。同时，报告还将展示在个性化工具调用方面的前沿进展，包括用户偏好建模、查询补全与主动任务预测等方法，从而显著降低用户交互成本，提高智能体的实用性与智能水平。"
-    },
-    {
-      "time": [
-        "09:30",
-        "10:00"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/chenhaotian.png",
-        "name": "陈颢天",
-        "desc": "清华大学自然语言处理实验室博士后",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "大模型自主智能体与工具学习",
-      "slides": "",
-      "recoding": "",
-      "desc": "得益于大语言模型技术的突飞猛进，大语言模型自主智能体通过感知环境、制定计划、调用外部工具并执行复杂任务，从而展现出更强劲的真实世界问题解决能力。通过学习如何选择、组合和使用搜索引擎、计算器、专业API接口等工具，智能体可以动态扩展自身能力，处理需要实时信息、复杂计算或专业领域知识的任务，为构建真正通用的人工智能奠定了基础。当前，大语言模型智能体工具学习领域正面临工具选择策略优化、多工具协作机制设计、工具理解与掌握方法等关键难题，同时在代码生成、数据分析、报告撰写、自动化科研等应用场景中展现出巨大潜力。理解大模型自主智能体与工具学习的发展现状和未来趋势，对于把握AI技术演进方向具有重要意义。"
-    },
-    {
-      "time": [
-        "10:00",
-        "10:30"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/zhangxi.png",
-        "name": "张熙",
-        "desc": "阿里巴巴通义实验室高级算法工程师",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "多模态多端GUI智能体Mobile-Agent",
-      "slides": "",
-      "recoding": "",
-      "desc": "Mobile-Agent 系列工作以视觉感知为核心，融合多智能体协作机制，支持多端、多语言、多场景，实现了无需系统定制即可自主识别并操作不同computure、web、mobile的应用界面。该模型不仅具备精准的界面理解、复杂任务规划与细粒度动作执行能力，更实现了在多智能体框架中灵活扮演多种角色——包括规划者、执行者、反思者与记录者，真正实现“能看、会想、善协作”的智能体闭环。"
-    },
-    {
-      "time": [
-        "10:30",
-        "11:00"
-      ],
-      "speaker": {
-        "img": "assets/img/speakers/gaoxin.png",
-        "name": "高莘",
-        "desc": "电子科技大学研究员、博士生导师、四川省青年特聘专家",
-        "url": ""
-      },
-      "type": "专题报告",
-      "title": "语言模型智能体：从使用工具到复杂社会行为",
-      "slides": "",
-      "recoding": "",
-      "desc": "近年来，大语言模型在理解和生成自然语言方面取得了巨大成功。然而，要让它们真正解决现实世界的问题，仅仅依靠“思考”是远远不够的。本报告将系统性地介绍我们在语言模型智能体上的一些探索工作，即：如何让智能体学会像人类一样熟练地使用外部工具来扩展自身能力边界？我们将首先介绍AutoTools框架，它通过自动化工具文档解析和代码生成，解决了传统方法依赖专家知识、难以扩展的痛点。在此基础上，我们进一步提出让模型不仅“会用”工具，更能“用好”工具。此外我们也通过实证研究揭示了一些影响工具学习稳定性的关键内外部因素，为构建可靠的应用提供了重要指导。最终，当单个智能体具备了熟练使用工具的能力后，我们将其置于更复杂的多智能体社会中。我们通过模拟企业组织的360评估和经验积累机制，让智能体群体能够通过协作与反思。最后，我们将以模拟金融市场为例，展示如何基于智能体技术来模拟复杂社会行为，以及如何为经济学等社会科学研究提供全新的研究视角。"
-    }
-  ]
+	"session_name": "Session 4: 大模型安全 <span style=\"white-space: pre;word-break: break-word;\"> (12月27日 09:00-11:00) </span>",
+	"session_chair": "论坛主席：刘东瑞 (上海人工智能实验室) &nbsp;&nbsp;&nbsp;&nbsp; 董胤蓬 (清华大学)",
+	"session_chairs": [
+		{
+			"name": "刘东瑞",
+			"affiliation": "上海人工智能实验室",
+			"img": "assets/img/liudongrui.jpg"
+		},
+		{
+			"name": "董胤蓬",
+			"affiliation": "清华大学",
+			"img": "assets/img/dongyinpeng.jpg"
+		}
+	],
+	"session_desc": "随着大模型及智能体在科研与产业中的广泛部署，其安全可信问题日益突出，已成为人工智能健康发展的关键挑战。本论坛聚焦大模型安全的前沿研究与关键问题，邀请来自中关村实验室、南京大学、中国科学院计算技术研究所与清华大学的四位学者，围绕大模型安全失效机理分析、AI智能体劫持与权限滥用、多模态大模型后门攻击与防御、AI研发自动化引发的“智能爆炸”风险等议题展开报告，涵盖安全假设分析、智能体攻防、后门检测与缓解以及前沿AI风险评估等核心方向。论坛旨在促进大模型安全领域的学术交流与合作，推动构建更加安全、可靠、可控的大模型与智能体系统。",
+	"session_time": [
+		"09:00",
+		"11:00"
+	],
+	"apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20261227T090000%0ADTEND;TZID=Asia/Shanghai:20261227T110000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202026%5D%20Session%204:大模型安全%0ADESCRIPTION:随着大模型及智能体在科研与产业中的广泛部署，其安全可信问题日益突出，已成为人工智能健康发展的关键挑战。本论坛聚焦大模型安全的前沿研究与关键问题，邀请来自中关村实验室、南京大学、中国科学院计算技术研究所与清华大学的四位学者，围绕大模型安全失效机理分析、AI智能体劫持与权限滥用、多模态大模型后门攻击与防御、AI研发自动化引发的“智能爆炸”风险等议题展开报告，涵盖安全假设分析、智能体攻防、后门检测与缓解以及前沿AI风险评估等核心方向。论坛旨在促进大模型安全领域的学术交流与合作，推动构建更加安全、可靠、可控的大模型与智能体系统。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2026/%0AEND:VEVENT%0AEND:VCALENDAR",
+	"google": "https://calendar.google.com/calendar/r/eventedit?dates=20261227T090000%2F20261227T110000&text=%5BMLNLP%202026%5D%20Session%204:大模型安全&details=随着大模型及智能体在科研与产业中的广泛部署，其安全可信问题日益突出，已成为人工智能健康发展的关键挑战。本论坛聚焦大模型安全的前沿研究与关键问题，邀请来自中关村实验室、南京大学、中国科学院计算技术研究所与清华大学的四位学者，围绕大模型安全失效机理分析、AI智能体劫持与权限滥用、多模态大模型后门攻击与防御、AI研发自动化引发的“智能爆炸”风险等议题展开报告，涵盖安全假设分析、智能体攻防、后门检测与缓解以及前沿AI风险评估等核心方向。论坛旨在促进大模型安全领域的学术交流与合作，推动构建更加安全、可靠、可控的大模型与智能体系统。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2026/",
+	"outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2026-12-27T09:00:00&enddt=2026-12-27T11:00:00&subject=%5BMLNLP%202026%5D%20Session%204:大模型安全&body=随着大模型及智能体在科研与产业中的广泛部署，其安全可信问题日益突出，已成为人工智能健康发展的关键挑战。本论坛聚焦大模型安全的前沿研究与关键问题，邀请来自中关村实验室、南京大学、中国科学院计算技术研究所与清华大学的四位学者，围绕大模型安全失效机理分析、AI智能体劫持与权限滥用、多模态大模型后门攻击与防御、AI研发自动化引发的“智能爆炸”风险等议题展开报告，涵盖安全假设分析、智能体攻防、后门检测与缓解以及前沿AI风险评估等核心方向。论坛旨在促进大模型安全领域的学术交流与合作，推动构建更加安全、可靠、可控的大模型与智能体系统。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2026/",
+	"session_slido_url": "",
+	"session_list": [
+		{
+			"time": [
+				"09:00",
+				"09:30"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/wangjiakai.png",
+				"name": "王嘉凯",
+				"desc": "中关村实验室副研究员、博士生导师",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "大模型安全失效分析：等价判定假设视角",
+			"slides": "",
+			"recoding": "",
+			"desc": "大模型已经成为当前人工智能的最核心技术之一，全面赋能科研、产业发展。然而大模型仍然存在多种安全风险，需要不断增强其安全能力。尽管已经有很多安全问题和安全防护策略被提出，但是有一个问题始终值得探讨：当前条件下大模型安全为何会失效？本报告中，我们提出一个观点，应对大模型安全失效风险要从其隐含的关键假设出发，才能够更好的理解和处理其应用问题。为此，我们结合团队近期工作介绍了一类等价判定假设问题，并对未来风险应对做出了展望和建议。"
+		},
+		{
+			"time": [
+				"09:30",
+				"10:00"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/wuhao.jpg",
+				"name": "吴昊",
+				"desc": "南京大学特聘研究员、博士生导师",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "Hijacking AI Agents: From Decision Manipulation to Action Rebinding",
+			"slides": "",
+			"recoding": "",
+			"desc": "AI agents act across applications and services with authority delegated by the user. We investigate how attackers turn this authority toward unauthorized operations by manipulating where actions take effect and what counts as permission. In Android GUI agents, Action Rebinding exploits the interval between observation and execution. A malicious application switches the foreground before a correctly planned interaction is delivered, redirecting it to a sensitive operation in another app without holding the corresponding permissions. The agent’s task-recovery behavior allows repeated rebindings to form multi-step attacks. Attackers can also manipulate authorization before execution. Cooperating third-party skills plant a false approval claim in persistent workspace guidance and use it to justify an unauthorized operation. The working agent and permission reviewer can then accept the same fabricated premise, allowing the operation to pass review. These studies show that protecting an agent’s delegated authority requires verifying both who authorized an operation and whether its execution reaches the intended target."
+		},
+		{
+			"time": [
+				"10:00",
+				"10:30"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/zhangjie.png",
+				"name": "张杰",
+				"desc": "中国科学院计算技术研究所研究员、博士生导师",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "多模态大模型后门攻击与防御",
+			"slides": "",
+			"recoding": "",
+			"desc": "随着多模态大模型的快速发展，其安全可信问题引发广泛关注。报告将介绍课题组在多模态大模型后门攻防方面的最新进展，包括基于句法触发器的高隐蔽后门攻击方法、基于同化现象的统一防御框架（涵盖后门检测、定位与缓解），基于注意力动态异常发现的后门防御方法、基于视觉注意力熵的后门模型检测方法以及模型后门反演方法。最后，报告将对未来研究方向与发展趋势进行总结与展望。"
+		},
+		{
+			"time": [
+				"10:30",
+				"11:00"
+			],
+			"speaker": {
+				"img": "assets/img/speakers/sorenmindermann.png",
+				"name": "Sören Mindermann",
+				"desc": "清华大学人工智能学院助理教授",
+				"url": ""
+			},
+			"type": "专题报告",
+			"title": "What if automating AI R&D triggers an intelligence explosion?",
+			"slides": "",
+			"recoding": "",
+			"desc": "In contrast to even last year, AI systems now write most of the code inside the companies that build them. As more of the AI research and development (R&D) pipeline is automated, could AI progress radically accelerate in an “intelligence explosion,” where years of advances are compressed into months or less? Preliminary evidence suggests that it could. We assess this evidence and analyze an intelligence explosion’s potential impacts. AI systems are on track to automate most AI R&D work within a few years, and possibly all of it. If this triggers an intelligence explosion, it could dramatically bring forward AI’s benefits, but also pose extreme risks: capabilities growth could accelerate far beyond what society can keep up with, humanity could lose control over superhuman AI systems, and checks on power within and between states, companies, and branches of government could be severely eroded. Although there remains much uncertainty about these possibilities, the high stakes warrant serious further attention."
+		}
+	]
 }
