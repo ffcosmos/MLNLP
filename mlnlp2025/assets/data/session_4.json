@@ -1,95 +1,95 @@
 {
-	"session_name": "特别Session：学生研讨会 <span style=\"white-space: pre;word-break: break-word;\"> (12月26日 19:00-21:00) </span>",
-	"session_chair": "论坛主席：倪仕文 (深圳理工大学) &nbsp;&nbsp;&nbsp;&nbsp; 王健 (四川大学)",
-	"session_chairs": [
-		{
-			"name": "倪仕文",
-			"affiliation": "深圳理工大学",
-			"img": "assets/img/committee/nishiwen.png"
-		},
-		{
-			"name": "王健",
-			"affiliation": "四川大学",
-			"img": "assets/img/committee/wangjian.jpg"
-		}
-	],
-	"session_desc": "科研选题与研究方法的探索，深刻影响着研究生的学术成长与职业规划。本论坛特邀来自蒙纳士大学的青年教师以及大连理工大学、东北大学、复旦大学的三位优秀博士生，结合各自的研究经历分享科研心得。报告内容涵盖与智能体协作开展AI科研、从大模型内部向量的“言外之意”拆解到科研选题思考、学术界与工业界在研究选题上的偏好差异，以及以可观测性驱动的coding agent harness自进化等主题。论坛将从实践与策略双重视角，帮助研究生把握大模型时代的科研方向，为理论探索与创新突破提供思路。",
-	"session_time": [
-		"19:00",
-		"21:00"
-	],
-	"apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20261226T190000%0ADTEND;TZID=Asia/Shanghai:20261226T210000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202026%5D%20特别Session%20:学生研讨会%0ADESCRIPTION:科研选题与研究方法的探索，深刻影响着研究生的学术成长与职业规划。本论坛特邀来自蒙纳士大学的青年教师以及大连理工大学、东北大学、复旦大学的三位优秀博士生，结合各自的研究经历分享科研心得。报告内容涵盖与智能体协作开展AI科研、从大模型内部向量的“言外之意”拆解到科研选题思考、学术界与工业界在研究选题上的偏好差异，以及以可观测性驱动的coding agent harness自进化等主题。论坛将从实践与策略双重视角，帮助研究生把握大模型时代的科研方向，为理论探索与创新突破提供思路。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
-	"google": "https://calendar.google.com/calendar/r/eventedit?dates=20261226T190000%2F20261226T210000&text=%5BMLNLP%202026%5D%20特别Session%20:学生研讨会&details=科研选题与研究方法的探索，深刻影响着研究生的学术成长与职业规划。本论坛特邀来自蒙纳士大学的青年教师以及大连理工大学、东北大学、复旦大学的三位优秀博士生，结合各自的研究经历分享科研心得。报告内容涵盖与智能体协作开展AI科研、从大模型内部向量的“言外之意”拆解到科研选题思考、学术界与工业界在研究选题上的偏好差异，以及以可观测性驱动的coding agent harness自进化等主题。论坛将从实践与策略双重视角，帮助研究生把握大模型时代的科研方向，为理论探索与创新突破提供思路。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
-	"outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2026-12-26T19:00:00&enddt=2026-12-26T21:00:00&subject=%5BMLNLP%202026%5D%20特别Session%20:学生研讨会&body=科研选题与研究方法的探索，深刻影响着研究生的学术成长与职业规划。本论坛特邀来自蒙纳士大学的青年教师以及大连理工大学、东北大学、复旦大学的三位优秀博士生，结合各自的研究经历分享科研心得。报告内容涵盖与智能体协作开展AI科研、从大模型内部向量的“言外之意”拆解到科研选题思考、学术界与工业界在研究选题上的偏好差异，以及以可观测性驱动的coding agent harness自进化等主题。论坛将从实践与策略双重视角，帮助研究生把握大模型时代的科研方向，为理论探索与创新突破提供思路。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
-	"session_slido_url": "",
-	"session_list": [
-		{
-			"time": [
-				"19:00",
-				"19:30"
-			],
-			"speaker": {
-				"img": "assets/img/speakers/caizhixi.png",
-				"name": "Zhixi Cai",
-				"desc": "澳大利亚蒙纳士大学信息技术学院讲师、博士生导师",
-				"url": ""
-			},
-			"type": "专题报告",
-			"title": "和Agent一起做AI科研",
-			"slides": "",
-			"recoding": "",
-			"desc": ""
-		},
-		{
-			"time": [
-				"19:30",
-				"20:00"
-			],
-			"speaker": {
-				"img": "assets/img/speakers/zengjingjie.png",
-				"name": "曾景杰",
-				"desc": "大连理工大学博士生",
-				"url": ""
-			},
-			"type": "专题报告",
-			"title": "怎样听懂大模型的内部向量？从“言外之意”拆解到科研选题思考",
-			"slides": "",
-			"recoding": "",
-			"desc": "大模型表面上只输出一串文字，但它的内部向量里往往同时叠加着多重语义。怎样在不改模型权重的前提下，把这些隐含信息清晰地“翻译”成自然语言？本次分享会顺着这个问题，用直观的例子聊聊怎么拆解模型内部的隐含语义。报告以模型自我解释为切入点，介绍模型如何处理隐喻与歧义，进而探讨单点向量解码在深层失效与语义坍缩上的瓶颈，并展示多槽位和跨层 KV 缓存的新解法。最后，也会围绕“如何从旧实验的局限里找到下一个好问题”，分享几点可复用的科研经验。"
-		},
-		{
-			"time": [
-				"20:00",
-				"20:30"
-			],
-			"speaker": {
-				"img": "assets/img/speakers/geyuan.png",
-				"name": "葛源",
-				"desc": "东北大学博士生",
-				"url": ""
-			},
-			"type": "专题报告",
-			"title": "从自由科研到基模训练：浅谈学界业界的选题偏好",
-			"slides": "",
-			"recoding": "",
-			"desc": "本报告从作者的亲身经历出发，分享学术界与工业界在研究选题和论文评价上的不同偏好。报告首先简要介绍获得 ACL 2026 SAC Highlight Award 的工作，并探讨该论文获奖的潜在原因。随后以近期工作 Omnilingual-MsASR 为例，介绍工业界基座模型团队的选题偏好：业界更关注基座模型的“原子能力”，如理解、推理、思考模式、工具调用与多语言能力。最后，报告将结合两种研究环境的差异，探讨学生在选题时如何兼顾学术价值与实际影响。"
-		},
-		{
-			"time": [
-				"20:30",
-				"21:00"
-			],
-			"speaker": {
-				"img": "assets/img/speakers/doushihan.png",
-				"name": "窦士涵",
-				"desc": "复旦大学博士生",
-				"url": ""
-			},
-			"type": "专题报告",
-			"title": "以可观测性驱动的coding agent harness自进化",
-			"slides": "",
-			"recoding": "",
-			"desc": "随着coding agent进入更为长程的编程任务，模型能力的释放越来越依赖外部Harness。传统Harness的迭代依赖人工经验，难以跟上模型和任务变化。本次报告我们介绍一种全新的harness优化方法，AHE：一种可观测性驱动的harness自进化框架，通过组件、轨迹经验和修改决策三层可观测性，让智能体自动定位失败原因、修改工具，中间件和记忆模块等并验证效果。实验上，AHE让GPT-5.4在terminal-bench 2上从69.7%提升到77.0%，超过人类设计的codex harness和多种自动进化基线。进化出的harness在固定后仍能迁移到SWE-bench-verified和多个不同模型，这证明了进化出来的并非刷榜技巧，而是一种可复用的框架和经验。"
-		}
-	]
+  "session_name": "特别Session：学生研讨会 <span style=\"white-space: pre;word-break: break-word;\"> (11月29日 19:00-21:00) </span>",
+  "session_chair": "论坛主席：张绍磊 (中国人民大学)  &nbsp;&nbsp;&nbsp;&nbsp; 涂耿 (哈尔滨工业大学（深圳）)",
+  "session_chairs": [
+    {
+      "name": "张绍磊",
+      "affiliation": "中国人民大学",
+      "img": "assets/img/committee/zhangshaolei.png"
+    },
+    {
+      "name": "涂耿",
+      "affiliation": "哈尔滨工业大学（深圳）",
+      "img": "assets/img/committee/tugeng.png"
+    }
+  ],
+  "session_desc": "科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。",
+  "session_time": [
+    "19:00",
+    "21:00"
+  ],
+  "apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20251129T153000%0ADTEND;TZID=Asia/Shanghai:20251129T173000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202024%5D%20特别Session%20:学生研讨会%0ADESCRIPTION:科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
+  "google": "https://calendar.google.com/calendar/r/eventedit?dates=20251129T190000%2F20251129T210000&text=%5BMLNLP%202024%5D%20特别Session%20:学生研讨会&details=科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
+  "outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2025-11-29T19:00:00&enddt=2025-11-29T21:00:00&subject=%5BMLNLP%202024%5D%20特别Session%20:学生研讨会&body=科研经验分享与创新实践的发展，正深刻影响着研究生们的学术成长与职业规划。本论坛聚焦科研切入点、社交网络构建与特色研究方法的最新分享与实用创新，特邀四位领域内资深博士生，深入探讨从个人视角到团队协作的科研策略。报告内容涵盖从个人视角看待科研切入点、从单打独斗到合作共赢：研究生如何构建科研社交网络、科研绘图经验分享、大模型时代如何做有特色的科研：以大模型智能体为例。论坛将从实践与策略双重视角，通过学术交流与经验分享，深化对科研路径的认知，为研究生们的理论探索与创新突破提供思路。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
+  "session_slido_url": "https://app.sli.do/event/itYr7hVSrjdjSihjjgepnS",
+  "session_list": [
+    {
+      "time": [
+        "19:00",
+        "19:30"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/guoshoutao.png",
+        "name": "郭守涛",
+        "desc": "中国科学院计算所博士生",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "从个人视角看待科研切入点",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    },
+    {
+      "time": [
+        "19:30",
+        "20:00"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/fanmeihao.jpeg",
+        "name": "范梅浩",
+        "desc": "中国人民大学博士生",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "从单打独斗到合作共赢：研究生如何构建科研社交网络",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    },
+    {
+      "time": [
+        "20:00",
+        "20:30"
+      ],
+      "speaker": {
+        "img": "assets/img/committee/chenqiguang.png",
+        "name": "陈麒光",
+        "desc": "哈尔滨工业大学博士生",
+        "url": ""
+      },
+      "type": "专题报告",
+      "title": "科研绘图经验分享",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    },
+    {
+      "time": [
+        "20:30",
+        "21:00"
+      ],
+      "speaker": {
+        "img": "assets/img/speakers/qiaoshuofei.jpeg",
+        "name": "乔硕斐",
+        "desc": "浙江大学博士生",
+        "url": "https://gooodte.github.io/"
+      },
+      "type": "专题报告",
+      "title": "大模型时代如何做有特色的科研：以大模型智能体为例",
+      "slides": "",
+      "recoding": "",
+      "desc": ""
+    }
+  ]
 }
