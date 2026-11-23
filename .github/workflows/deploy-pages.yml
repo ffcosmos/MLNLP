@@ -1,10 +1,11 @@
-name: Deploy MLNLP 2025 to GitHub Pages
+name: Deploy MLNLP to GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
       - 'mlnlp2025/**'
+      - 'mlnlp2026/**'
       - 'index.html'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
@@ -31,10 +32,10 @@ jobs:
           persist-credentials: false
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
-      - name: Prepare the 2025 website
+      - name: Prepare the conference websites
         run: |
           mkdir -p _site
-          cp -R mlnlp2025 _site/mlnlp2025
+          cp -R mlnlp2025 mlnlp2026 _site/
           cp index.html _site/index.html
           touch _site/.nojekyll
       - name: Upload website

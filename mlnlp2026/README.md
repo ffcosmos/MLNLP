@@ -1,12 +1,9 @@
-# MLNLP2025 Conference
+# MLNLP 2026 大会
 
-Welcome to MLNLP 2025 conference, please see [mlnlp.org/mlnlp2025](http://www.mlnlp.org/mlnlp2025) for more details.
+第五届机器学习算法与自然语言处理大会将于 2026 年 12 月 26–27 日举行。
 
-- November 29 - November 30, 2025
-- Online conference
+日程与主办方信息见 [MLNLP 2026 大会网站](https://ffcosmos.github.io/MLNLP/mlnlp2026/)。
 
-For any question, please submit an issue.
+如有问题，欢迎提交 GitHub Issue。
 
-Welcome to follow our WeChat channel.
-
-![image](https://user-images.githubusercontent.com/21468340/198924438-9ebeff32-738e-42df-a81c-5f1f9acf03db.png)
+![MLNLP 微信公众号二维码](assets/img/wechat.jpg)

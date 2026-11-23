@@ -1,10 +1,10 @@
-# MLNLP 2025 大会网站
+# MLNLP 2026 大会网站
 
-基于 [LightChen233/MLNLP](https://github.com/LightChen233/MLNLP) 的大会网站，更新 2025 年页面的配色、论坛切换、人物展示与移动端布局。
+第五届机器学习算法与自然语言处理大会网站，基于 [LightChen233/MLNLP](https://github.com/LightChen233/MLNLP)。
 
 ## 本地预览
 
-在仓库目录执行：
+在 macOS 双击 `preview.command`，或在仓库目录执行以下命令。
 
 ```sh
 python3 -m http.server 8895 --bind 127.0.0.1
@@ -23,10 +23,10 @@ python3 -m http.server 8895 --bind 127.0.0.1
 
 ## 自动部署
 
-推送到 `main` 后，GitHub Actions 自动发布到 GitHub Pages。部署仅包含 2026 年网站及根目录入口，不使用原仓库的 `CNAME` 自定义域名文件。
+推送 `mlnlp2025/`、`mlnlp2026/`、根目录入口或部署工作流的变更到 `main` 后，GitHub Actions 会发布两年网站和根目录入口。根入口跳转到 2026 大会页，发布地址使用 GitHub Pages 默认域名。
 
-公开入口：https://ffcosmos.github.io/MLNLP/
-
-大会页：https://ffcosmos.github.io/MLNLP/mlnlp2026/
+- [公开入口](https://ffcosmos.github.io/MLNLP/)
+- [2026 大会页](https://ffcosmos.github.io/MLNLP/mlnlp2026/)
+- [2025 大会页](https://ffcosmos.github.io/MLNLP/mlnlp2025/)
 
 仓库保留原项目的历史年份代码与模板署名。TheEvent 模板来自 [BootstrapMade](https://bootstrapmade.com/theevent-conference-event-bootstrap-template/)。
