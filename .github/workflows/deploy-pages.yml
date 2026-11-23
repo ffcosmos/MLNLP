@@ -4,7 +4,6 @@ on:
   push:
     branches: [main]
     paths:
-      - 'mlnlp2025/**'
       - 'mlnlp2026/**'
       - 'index.html'
       - '.github/workflows/deploy-pages.yml'
@@ -35,7 +34,7 @@ jobs:
       - name: Prepare the conference websites
         run: |
           mkdir -p _site
-          cp -R mlnlp2025 mlnlp2026 _site/
+          cp -R mlnlp2026 _site/
           cp index.html _site/index.html
           touch _site/.nojekyll
       - name: Upload website
