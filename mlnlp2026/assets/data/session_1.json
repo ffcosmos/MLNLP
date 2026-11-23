@@ -13,14 +13,14 @@
 			"img": "assets/img/yangxue.jpg"
 		}
 	],
-	"session_desc": "多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。",
+	"session_desc": "多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕统一多模态大模型中的跨模态与跨任务协同建模、从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖统一多模态建模、长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。",
 	"session_time": [
 		"09:00",
 		"11:00"
 	],
-	"apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20261226T090000%0ADTEND;TZID=Asia/Shanghai:20261226T110000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202026%5D%20Session%201:多模态大模型%0ADESCRIPTION:多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
-	"google": "https://calendar.google.com/calendar/r/eventedit?dates=20261226T090000%2F20261226T110000&text=%5BMLNLP%202026%5D%20Session%201:多模态大模型&details=多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
-	"outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2026-12-26T09:00:00&enddt=2026-12-26T11:00:00&subject=%5BMLNLP%202026%5D%20Session%201:多模态大模型&body=多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
+	"apple": "data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VTIMEZONE%0ATZID:Asia/Shanghai%0AX-LIC-LOCATION:Asia/Shanghai%0ABEGIN:STANDARD%0ATZOFFSETFROM:+0800%0ATZOFFSETTO:+0800%0ATZNAME:CST%0ADTSTART:19700101T000000%0AEND:STANDARD%0AEND:VTIMEZONE%0ABEGIN:VEVENT%0AURL:%0ADTSTART;TZID=Asia/Shanghai:20261226T090000%0ADTEND;TZID=Asia/Shanghai:20261226T110000%0ATZID:Asia/Shanghai%0ASUMMARY:%5BMLNLP%202026%5D%20Session%201:多模态大模型%0ADESCRIPTION:多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕统一多模态大模型中的跨模态与跨任务协同建模、从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖统一多模态建模、长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。%0ALOCATION:%0ABEGIN:VALARM%0ATRIGGER:-PT10M%0AACTION:DISPLAY%0ADESCRIPTION:Reminder%0AEND:VALARM%0ALOCATION:http://www.mlnlp.org/mlnlp2025/%0AEND:VEVENT%0AEND:VCALENDAR",
+	"google": "https://calendar.google.com/calendar/r/eventedit?dates=20261226T090000%2F20261226T110000&text=%5BMLNLP%202026%5D%20Session%201:多模态大模型&details=多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕统一多模态大模型中的跨模态与跨任务协同建模、从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖统一多模态建模、长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。&ctz=Asia%2FShanghai&location=http://www.mlnlp.org/mlnlp2025/",
+	"outlook": "https://outlook.live.com/owa?rru=addevent&startdt=2026-12-26T09:00:00&enddt=2026-12-26T11:00:00&subject=%5BMLNLP%202026%5D%20Session%201:多模态大模型&body=多模态大模型正推动人工智能从单一文本理解走向对图像、视频、音频等多源信息的联合感知、推理与生成。本论坛聚焦多模态大模型的前沿研究与关键挑战，邀请来自牛津大学、南京大学、复旦大学与中国科学院自动化研究所的四位学者，围绕统一多模态大模型中的跨模态与跨任务协同建模、从视频生成到长时稳定的世界模型、交互式视觉智能中的感知、生成与世界建模、多模态大模型高效推理等议题展开报告，涵盖统一多模态建模、长视频生成、主动视觉感知、统一评测基准、实时流式推理与上下文压缩等核心技术。论坛旨在促进多模态领域的学术交流与合作，推动多模态大模型向更加通用、高效与可交互的方向发展。&allday=false&path=%2Fcalendar%2Fview%2FMonth&location=http://www.mlnlp.org/mlnlp2025/",
 	"session_slido_url": "",
 	"session_list": [
 		{
@@ -29,16 +29,16 @@
 				"09:30"
 			],
 			"speaker": {
-				"img": "",
+				"img": "assets/img/speakers/wushengqiong.png",
 				"name": "吴胜琼",
 				"desc": "牛津大学博士后",
 				"url": ""
 			},
 			"type": "专题报告",
-			"title": "",
+			"title": "统一不等于协同：多模态大模型中的跨模态与跨任务协同建模",
 			"slides": "",
 			"recoding": "",
-			"desc": ""
+			"desc": "近年来，多模态大模型正从单一模态、单一任务走向跨模态、跨任务的统一：从处理单一图像走向图像、视频、3D 的统一处理，从单纯理解走向理解与生成的一体化。然而，统一不等于协同。现有统一模型大多停留在功能集成层面，多种模态与任务被纳入同一框架，却缺乏深度互动，各项能力更像是并列的技能而非协同的过程。本报告围绕统一多模态大模型中的\"协同\"这一主线，介绍如何在架构与训练层面建模不同视觉模态之间的协同，使图像、视频、3D 的互补先验相互增益；以及如何通过分析与草绘交替的思考范式，让理解与生成在同一条推理链上互相验证、互相完善。这些工作旨在推动统一多模态模型从简单的功能集成走向真正的能力协同，在模态与任务的相互增益中迈向更强的通用多模态智能。"
 		},
 		{
 			"time": [
