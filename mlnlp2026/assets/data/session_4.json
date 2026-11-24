@@ -5,12 +5,14 @@
 		{
 			"name": "倪仕文",
 			"affiliation": "深圳理工大学",
-			"img": "assets/img/nishiwen.jpg"
+			"img": "assets/img/nishiwen.jpg",
+			"title": "副教授"
 		},
 		{
 			"name": "王健",
 			"affiliation": "四川大学",
-			"img": "assets/img/wangjian.jpg"
+			"img": "assets/img/wangjian.jpg",
+			"title": "国家级青年人才"
 		}
 	],
 	"session_desc": "科研选题与研究方法的探索，深刻影响着研究生的学术成长与职业规划。本论坛特邀来自蒙纳士大学的青年教师以及大连理工大学、东北大学、复旦大学的三位优秀博士生，结合各自的研究经历分享科研心得。报告内容涵盖与智能体协作开展AI科研、从大模型内部向量的“言外之意”拆解到科研选题思考、学术界与工业界在研究选题上的偏好差异，以及以可观测性驱动的coding agent harness自进化等主题。论坛将从实践与策略双重视角，帮助研究生把握大模型时代的科研方向，为理论探索与创新突破提供思路。",
@@ -38,7 +40,7 @@
 			"title": "和Agent一起做AI科研",
 			"slides": "",
 			"recoding": "",
-			"desc": ""
+			"desc": "现在的 AI agent 已经能读论文、写代码、跑实验，也能起草论文。我会沿着一个研究项目从最初的问题到最后展示成果的全过程，讲我在 AI 研究中怎么用 agent。整个流程分五个阶段：找研究问题、提出 idea、概念验证、写 paper 、Presentation。每个阶段我会讲我怎么和 agent 配合、常见的坑有哪些、怎么保证研究质量。agent 也可以在每个阶段充当reviewer：判断 idea 有没有新意，检查代码写得对不对，在真正的审稿人之前找出论文的弱点。过程中我也会推荐我在用的实用工具、skill 和其他资源。报告面向刚开始做研究、想在日常研究中用好 agent 的同学。"
 		},
 		{
 			"time": [

@@ -5,12 +5,14 @@
 		{
 			"name": "黄锴宇",
 			"affiliation": "北京交通大学",
-			"img": "assets/img/huangkaiyu.jpg"
+			"img": "assets/img/huangkaiyu.jpg",
+			"title": "助理研究员"
 		},
 		{
 			"name": "王硕",
 			"affiliation": "清华大学",
-			"img": "assets/img/wangshuo.jpg"
+			"img": "assets/img/wangshuo.jpg",
+			"title": "助理研究员"
 		}
 	],
 	"session_desc": "本次论坛将聚焦于多语言大模型的前沿研究与实际应用。四位来自学术界与工业界的顶尖专家将围绕多语言智能的核心议题展开深入探讨：从大模型在多语言场景下的安全隐患，到多语言智能体的评测与挑战；从基于强化学习的多语言大模型推理研究，到自下而上构建可验证的高难度翻译测试集。论坛还将梳理多语言大模型的发展脉络，剖析其在翻译、推理、安全和智能体方面的关键技术突破，并展望其在多语言前沿智能体等领域的广阔前景。通过本次交流，论坛旨在推动多语言大模型的理论创新与产业应用，助力迈向更加语言公平与通用智能的未来。",
@@ -31,7 +33,7 @@
 			"speaker": {
 				"img": "assets/img/speakers/wangwenxuan.png",
 				"name": "王文轩",
-				"desc": "中国人民大学信息学院讲师",
+				"desc": "中国人民大学信息学院讲师、国家级青年人才",
 				"url": ""
 			},
 			"type": "专题报告",

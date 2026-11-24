@@ -46,7 +46,8 @@
     return `<div class="chair-card">
       <div class="chair-portrait">${portrait(chair.img, chair.name, 76)}</div>
       <div><h4 class="chair-name">${escapeHTML(chair.name)}</h4>
-      <p class="chair-affiliation">${escapeHTML(chair.affiliation)}</p></div>
+      <p class="chair-affiliation">${escapeHTML(chair.affiliation)}</p>
+      ${chair.title ? `<p class="chair-affiliation">${escapeHTML(chair.title)}</p>` : ''}</div>
     </div>`;
   }
   // Legacy files may contain either a URL or an HTML link for talk resources.

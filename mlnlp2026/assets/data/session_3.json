@@ -5,12 +5,14 @@
 		{
 			"name": "钱忱",
 			"affiliation": "上海交通大学",
-			"img": "assets/img/qianchen.jpg"
+			"img": "assets/img/qianchen.jpg",
+			"title": "博士生导师"
 		},
 		{
 			"name": "张众",
 			"affiliation": "电子科技大学",
-			"img": "assets/img/zhangzhong.jpg"
+			"img": "assets/img/zhangzhong.jpg",
+			"title": "讲师"
 		}
 	],
 	"session_desc": "MLNLP 2026 第五届机器学习算法与自然语言处理大会“大模型智能体”分论坛将于12月26日（周六）下午15:30—17:30线上举行，邀请来自阿里巴巴等产业界以及四川大学、中国科学技术大学、北京航空航天大学等学术界的四位讲者，围绕基于强化学习的开放域智能体自进化框架与ArenaRL、大模型智能体驱动的工业经验沉淀与复用、个性化智能体助理、自进化代码大模型和智能体等方向展开报告，涵盖智能体强化学习、经验工程、个性化建模与代码自进化等核心技术及开放域规划、工业运维、个人助理和软件开发等应用场景，旨在促进学术界与产业界在智能体领域的交流与合作。",
@@ -48,7 +50,7 @@
 			"speaker": {
 				"img": "assets/img/speakers/wangwenjie.png",
 				"name": "王文杰",
-				"desc": "中国科学技术大学教授、博士生导师",
+				"desc": "中国科学技术大学教授、博士生导师、国家级青年人才",
 				"url": ""
 			},
 			"type": "专题报告",
