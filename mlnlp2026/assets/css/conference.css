@@ -69,15 +69,8 @@ p { margin: 0 0 1rem; }
 .buy-tickets:hover { color: var(--accent-dark); background: var(--accent-soft); border-color: rgba(14, 165, 233, .35); }
 .mobile-nav-toggle { display: none; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: 0; background: transparent; color: var(--ink); font-size: 26px; }
 
-#hero {
-  padding-block: clamp(64px, 11vw, 150px);
-  text-align: center;
-  background: radial-gradient(ellipse at 24% 22%, #d8eeff, transparent 60%),
-    linear-gradient(145deg, #f8fbff, #e5efff);
-}
-.hero-year { margin: 0 0 14px; color: var(--accent-dark); font-size: clamp(20px, 4vw, 32px); font-weight: 650; }
-.hero-content h1 { max-width: 20em; margin: 0 auto 18px; font-size: clamp(28px, 5vw, 54px); }
-.hero-date { margin: 0 0 24px; color: var(--heading); font-size: clamp(16px, 2.5vw, 22px); }
+#hero { position: relative; background: #dce8ff; }
+.conference-poster { display: block; width: 100%; height: auto; }
 .conference-countdown { display: flex; flex: 0 0 auto; flex-direction: column; align-items: flex-start; justify-content: center; gap: 5px; margin-left: 22px; padding-left: 22px; color: var(--body); border-left: 1px solid var(--line); }
 .countdown-status { font-size: 13px; line-height: 1.35; white-space: nowrap; }
 .countdown-clock { display: flex; align-items: baseline; gap: 8px; white-space: nowrap; }
